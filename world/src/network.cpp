@@ -73,7 +73,7 @@ void s_sender::printstats()
 	long long t=GetTickCount();
 	long long p,a;
 	{
-		ul m=mutex.lock();
+        std::lock_guard<std::mutex> guard (this->mutex);
 		p=peak;
 		a=all;
 	}
@@ -87,7 +87,7 @@ void s_reciever::printstats()
 	long long t=GetTickCount();
 	long long p,a;
 	{
-		ul m=mutex.lock();
+        std::lock_guard<std::mutex> guard (this->mutex);
 		p=peak;
 		a=all;
 	}

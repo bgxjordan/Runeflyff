@@ -25,7 +25,7 @@ int tquest::joblookup[16]= {JOB_VAGRANT, JOB_MERCENARY, JOB_ACROBAT, JOB_ASSIST,
 
 tquest *q=0;
 std::map<int, tquest*> tquest::quests;
-pmutex tquest::questsmutex;
+std::mutex tquest::questsmutex;
 
 #define QIT_BEGIN 1
 #define QIT_BEGINADD 2

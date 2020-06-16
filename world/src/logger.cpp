@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "logger.h"
-#include <stdio.h>
+#include <cstdio>
 
 
 	#include <conio.h>
@@ -24,14 +24,14 @@ tlogger::~tlogger()
 {
 	int ne;
 	{
-		pmutex::unlocker mlock=mutex.lock();
+	    std::lock_guard<std::mutex> guard(this->mutex);
 		ne=nerrors;
 	}
 
 	log("Errors=%d\n", ne);
 
 	{
-		pmutex::unlocker mlock=mutex.lock();
+        std::lock_guard<std::mutex> guard(this->mutex);
 		if(f1!=0)fclose(f1);
 		f1=0;
 	}
@@ -44,7 +44,7 @@ void tlogger::log(const char *s, ...)
 	va_list lista;
 	if(s!=0)
 	{
-		pmutex::unlocker mlock=mutex.lock();
+        std::lock_guard<std::mutex> guard(this->mutex);
 
 		va_start(lista, s);
 		vsprintf(&buffer[0],  s, lista);
@@ -66,7 +66,7 @@ void tlogger::elog(const char *s, ...)
 	va_list lista;
 	if(s!=0)
 	{
-		pmutex::unlocker mlock=mutex.lock();
+        std::lock_guard<std::mutex> guard(this->mutex);
 
 		nerrors++;
 		va_start(lista, s);
@@ -88,7 +88,7 @@ int tlogger::gete()
 {
 	int retval;
 	{
-		pmutex::unlocker mlock=mutex.lock();
+        std::lock_guard<std::mutex> guard(this->mutex);
 		retval=nerrors;
 	}
 	return retval;

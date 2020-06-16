@@ -28,7 +28,7 @@
 	#endif
 #endif
 
-#include "pmutex.h"
+#include "platform_threading.h"
 
 bool startserver(int *s, int port);
 void closeserver(int serverSocket);
@@ -40,7 +40,7 @@ class s_sender
 	long long all,curr;
 	long long peak;
 	long long starttime;
-	pmutex mutex;
+	std::mutex mutex;
 public:
 	s_sender();
 	int send(SOCKET s, const char *buf, int len, int flags)
@@ -48,7 +48,7 @@ public:
 		int r=::send(s, buf, len, flags);
 		if(r>0)
 		{
-			ul m=mutex.lock();
+		    std::lock_guard<std::mutex> guard (this->mutex);
 			all+=r;
 			curr+=r;
 		}
@@ -56,7 +56,7 @@ public:
 	}
 	long long getcurrent()
 	{
-		ul m=mutex.lock();
+        std::lock_guard<std::mutex> guard (this->mutex);
 		long long r=curr;
 		if(curr>peak)peak=curr;
 		curr=0;
@@ -69,7 +69,7 @@ class s_reciever
 {
 	long long all,curr,peak;
 	long long starttime;
-	pmutex mutex;
+	std::mutex mutex;
 public:
 	s_reciever();
 	int recv(SOCKET s, char *buf, int len, int flags)
@@ -77,7 +77,7 @@ public:
 		int r=::recv(s, buf, len, flags);
 		if(r>0)
 		{
-			ul m=mutex.lock();
+            std::lock_guard<std::mutex> guard (this->mutex);
 			all+=r;
 			curr+=r;
 		}
@@ -85,7 +85,7 @@ public:
 	}
 	long long getcurrent()
 	{
-		ul m=mutex.lock();
+        std::lock_guard<std::mutex> guard (this->mutex);
 		long long r=curr;
 		if(curr>peak)peak=curr;
 		curr=0;

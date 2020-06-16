@@ -2,15 +2,15 @@
 #define __logger_h__
 
 
-#include <stdio.h>
-#include "pmutex.h"
+#include <cstdio>
+#include "platform_threading.h"
 #include <string>
 
 class tlogger
 {
 	static const int nbuffersize=2*1024*1024;
 	char buffer[nbuffersize];
-	pmutex mutex;
+	std::mutex mutex;
 	int nerrors;
 	FILE *f1;
 	std::string prefix;
