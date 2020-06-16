@@ -17,7 +17,6 @@
 #include "buffer.h"
 #include "adat.h"
 #include "charserver.h"
-#include "pmutex.h"
 
 #include "quest.h"
 
@@ -29,10 +28,10 @@ char mysqldb[256]="flyff3";
 int mysqlport=0;
 std::vector2<mcon*> connections;
 
-charserver *cserver=0;
+charserver *cserver=nullptr;
 std::map<int, tplayer*> globaldbidplayers;
 std::map<std::string, tplayer*> globalnameplayers;
-pmutex globalplayersmutex;
+std::mutex globalplayersmutex;
 
 sqlquery dbaccounts;
 sqlquery dbcharacters;
@@ -46,15 +45,9 @@ sqlquery dbguilds;
 sqlquery dbguilds_g;
 sqlquery dbcharacters_g;
 sqlquery dbguildsiege;
-pmutex dbguildsiege_mutex;
-clustercont *clusters=0;
+std::mutex dbguildsiege_mutex;
+clustercont *clusters= nullptr;
 unsigned long ulong1=1;
-
-void breakpoint()
-{
-
-	logger.log("");
-}
 
 int getCluster(reciever &sr)
 {
@@ -263,30 +256,8 @@ try{
 		//mysql_library_init(-1, 0, 0);
 		mysql_init(0);
 		if(mysql_thread_safe()!=1)throw std::runtime_error("Mysql server is not threadsafe!");
-		if(CHAR_BIT!=8)throw std::runtime_error("Only 8bit char platforms supported!");
-		if(sizeof(short)!=2)throw std::runtime_error("Short is not 2 bytes!");
-		if(sizeof(int)!=4)throw std::runtime_error("Int is not 4 bytes!");
-		if(sizeof(long long)!=8)throw std::runtime_error("Long long is not 8 bytes!");
-		if(sizeof(float)!=4)throw std::runtime_error("Float is not 4 bytes!");
-        logger.log("Runeflyff v%s - Login\n", RUNEFLYFF_VERSION);
-#ifdef WIN32
-		logger.log("Windows");
-#endif
-#ifdef linux
-		logger.log("Linux");
-#endif
-
-#ifdef _CLR
-		logger.log(" CLR");
-#endif
-
-#ifdef _DEBUG
-		logger.log(" Debug");
-#else
-		logger.log(" Relase");
-#endif
-		logger.log(" build\n");
-		srand((unsigned)time(0));
+        logger.log("RuneFlyff v%s - World [%s - %s]\n", RUNEFLYFF_VERSION, RUNEFLYFF_PLATFORM, RUNEFLYFF_BUILD_TYPE);
+		srand(static_cast<unsigned>(time(nullptr)));
 		std::ifstream fl1;
 		fl1.open("server.txt");
 		fl1.getline(&mysqlhost[0], 256);
@@ -421,17 +392,12 @@ mainloop_end:
 	tguild::saveallguilds();
 
 	logger.log("Closeing clusters\n");
-	pthread_t **cj=0;
-	if(clusters!=0)
-	{
-		cj=new pthread_t*[nclusters];
-		for(a=0;a<(int)clusters->size();a++)
-		{
-			cj[a]=(*clusters)[a]->cthread;
-			(*clusters)[a]->endprg=true;
-		}
-		logger.log("Clusters closed\n");
 
+	if (clusters != nullptr) {
+	    for (int i = 0; i < clusters->size(); i++) {
+            (*clusters)[a]->endprg=true;
+	    }
+        logger.log("Clusters closed\n");
 	}
 
 	logger.log("Closeing mysql\n");
@@ -447,12 +413,18 @@ mainloop_end:
 
 	dbguildsiege.freeup();
 
-	if(clusters!=0)
+	if (clusters != nullptr)
 	{
 		logger.log("Waiting for clusterthreads to finish\n");
-		for(a=0;a<nclusters;a++)pthread_join(*cj[a],NULL);
+
+        for (int i = 0; i < clusters->size(); i++) {
+            if ((*clusters)[a]->cthread.joinable()) {
+                (*clusters)[a]->cthread.join();
+            }
+        }
+
 		logger.log("threads finished\n");
-		delete[] cj;
+
 		if(clusters!=0)delete clusters;
 		clusters=0;
 	}

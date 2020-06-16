@@ -1,7 +1,7 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.1)
 
 PROJECT(Runeflyff
-        VERSION 0.74.4)
+        VERSION 0.80.0)
 SET(RUNEFLYFF_VERSION ${PROJECT_VERSION})
 
 # Find includes in corresponding build directories
@@ -30,7 +30,7 @@ ENDIF()
 SET(MYSQL_SUPPORT ON)
 
 IF (MYSQL_SUPPORT)
-    SET(MySQL_DIR "C:\\Program Files (x86)\\MySQL\\MySQL Connector C++ 8.0")
+    SET(MySQL_DIR "f:\\Programs (x86)\\MySQL\\MySQL Connector C 6.1")
 
     FIND_PACKAGE(MySQL REQUIRED)
     INCLUDE_DIRECTORIES(${MYSQL_INCLUDE_DIRS})

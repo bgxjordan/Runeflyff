@@ -46,7 +46,7 @@ bool character_npc::petpick()
 			setfocus(t);
 			vector3d<> v=t->getpos();
 			this->moveto(v.x, v.y, v.z);
-			ul m=owner->playermutex.lock();
+            std::lock_guard<std::mutex> guard(owner->playermutex);
 			gotoid(owner->tomulticast, id, t->getId(), 0);
 		}
 	}else
@@ -57,7 +57,7 @@ bool character_npc::petpick()
 			int n=1;
 			if(f->type==ttitem)
 			{
-				ul m=owner->playermutex.lock();
+                std::lock_guard<std::mutex> guard(owner->playermutex);
 				n=owner->pickup((character_item*)f);
 			}
 			setfocus(0);
@@ -225,7 +225,7 @@ character_npc::character_npc(cluster *c, int npctype, string n, float x1, float 
 
 
 	{
-		ul m=tquest::questsmutex.lock();
+	    std::lock_guard<std::mutex> guard (tquest::questsmutex);
 		int a=0,b=0;
 		std::map<int, tquest*>::iterator i;
 		for(i=tquest::quests.begin();i!=tquest::quests.end();++i)

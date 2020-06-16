@@ -14,11 +14,11 @@
 #include "trade.h"
 #include "playershop.h"
 #include "party.h"
-#include "pmutex.h"
 #include "guild.h"
 #include "quest.h"
 #include "character_base.h"
 #include "scheduler.h"
+#include "platform_threading.h"
 
 void initprochandlers();
 void initplayerdbvals(sqlquery &s1);
@@ -67,7 +67,7 @@ struct pquestdata
 	{
 		if(q==0)
 		{
-			ul m=tquest::questsmutex.lock();
+		    std::lock_guard<std::mutex> guard(tquest::questsmutex);
 			std::map<int, tquest*>::iterator i=tquest::quests.find(id*256+state);
 			if(i!=tquest::quests.end())q=i->second;
 		}
@@ -75,7 +75,7 @@ struct pquestdata
 	bool setstate(int a)
 	{
 		state=a;
-		ul m=tquest::questsmutex.lock();
+        std::lock_guard<std::mutex> guard(tquest::questsmutex);
 		std::map<int, tquest*>::iterator i=tquest::quests.find(id*256+state);
 		if(i!=tquest::quests.end())q=i->second;
 		return (i!=tquest::quests.end());
@@ -133,7 +133,7 @@ private:
 	bool save_slots;
 	bool save_friendlist;
 public:
-	mtype<long long> last_active;
+	std::atomic_llong last_active;
 	void addmoney(int a);
 	void submoney(int a);
 	bool save_quests;
@@ -160,7 +160,7 @@ public:
 	bool toprocess;
 	bool srready;
 
-	pmutex playermutex;
+	std::mutex playermutex;
 	void clearsp();
 	void clearsp2();
 	long long nextfood, nextskill, nextattack, nextchat, penelaty, lastsave, nextkarmarecover;
@@ -310,17 +310,17 @@ public:
 	void gwprepare();
 	bool gettoprocess()
 	{
-		ul m=playermutex.lock();
+	    std::lock_guard<std::mutex> guard(this->playermutex);
 		return toprocess;
 	}
 	void settoprocess(bool f)
 	{
-		ul m=playermutex.lock();
+        std::lock_guard<std::mutex> guard(this->playermutex);
 		toprocess=f;
 	}
 	bool valid()
 	{
-		ul m=playermutex.lock();
+        std::lock_guard<std::mutex> guard(this->playermutex);
 		return (ticket!=-1)&&(!errorstate);
 	}
 	bool validnl()
@@ -342,7 +342,7 @@ public:
 	tguild *guild;
 
 //-----------------------------------
-	pmutex asyncbuffermutex;
+	std::mutex asyncbuffermutex;
 	buffer *asyncbuffer;
 	std::list<buffer> asyncbuffer2;
 	enum t_ac {ac_quit_party, ac_quit_guild, ac_sitdown};

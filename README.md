@@ -47,6 +47,11 @@ You will need the following dependencies to build Runeflyff from source:
 Changelog
 ===
 
+0.80.0
+---
+* Replace winpthreads-32 API with C++11 threading model in source code
+    * If using MinGW, you will be linked against the compiler's winpthreads-32 library. Other compilers will not require it
+
 0.74.4
 ---
 * CMake autodetects MySQL Connector/C if installed to the default ProgramFiles (x86) folder. 

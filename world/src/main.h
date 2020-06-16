@@ -2,7 +2,7 @@
 #define __main_h__
 
 #include "mysql.h"
-#include "pmutex.h"
+#include "platform_threading.h"
 #include "vector2.h"
 
 extern std::vector2<mcon*> connections;
@@ -18,7 +18,7 @@ extern sqlquery dbguilds;
 extern sqlquery dbguilds_g;
 extern sqlquery dbcharacters_g;
 extern sqlquery dbguildsiege;
-extern pmutex dbguildsiege_mutex;
+extern std::mutex dbguildsiege_mutex;
 
 extern char mysqlhost[256];
 extern char mysqluser[256];
@@ -35,7 +35,7 @@ extern charserver *cserver;
 class tplayer;
 extern std::map<int, tplayer*> globaldbidplayers;
 extern std::map<std::string, tplayer*> globalnameplayers;
-extern pmutex globalplayersmutex;
+extern std::mutex globalplayersmutex;
 extern int servernumber;
 
 #endif

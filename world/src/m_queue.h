@@ -2,33 +2,34 @@
 #define __m_queue_h__
 
 #include <queue>
-#include "pmutex.h"
+#include "platform_threading.h"
 
 template <class T>
 class m_queue:private std::queue<T>
 {
-	mutable pmutex mutex;
+private:
+	mutable std::mutex mutex;
 public:
 	bool empty() const
 	{
-		ul m=mutex.lock();
+	    std::lock_guard<std::mutex> guard(this->mutex);
 		return std::queue<T>::empty();
 	}
 	T pop()
 	{
-		ul m=mutex.lock();
+        std::lock_guard<std::mutex> guard(this->mutex);
 		T r=std::queue<T>::front();
 		std::queue<T>::pop();
 		return r;
 	}
 	void push(const T& a)
 	{
-		ul m=mutex.lock();
+        std::lock_guard<std::mutex> guard(this->mutex);
 		std::queue<T>::push(a);
 	}
 	size_t size() const
 	{
-		ul m=mutex.lock();
+        std::lock_guard<std::mutex> guard(this->mutex);
 		return std::queue<T>::size();
 	}
 };

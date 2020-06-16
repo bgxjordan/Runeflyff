@@ -1,9 +1,19 @@
 #ifndef _CONFIG_H_IN_
 #define _CONFIG_H_IN_
-
 #pragma once
 
+#define RUNEFLYFF_BUILD_TYPE "${CMAKE_BUILD_TYPE}"
 #define RUNEFLYFF_VERSION "${RUNEFLYFF_VERSION}"
+
+#ifdef __APPLE__
+#define RUNEFLYFF_PLATFORM "MacOSX"
+#elif __FreeBSD__ || __NetBSD__ || __OpenBSD__
+#define RUNEFLYFF_PLATFORM "BSDFamily"
+#elif __linux__
+#define RUNEFLYFF_PLATFORM "Linux"
+#elif _WIN32 || WIN32
+#define RUNEFLYFF_PLATFORM "Windows"
+#endif
 
 #cmakedefine MSVC_BUILD
 

@@ -1,7 +1,7 @@
 #ifndef __quest_h__
 #define __quest_h__
 
-#include "pmutex.h"
+#include "platform_threading.h"
 #include <string>
 #include <map>
 #include "vector2.h"
@@ -17,7 +17,7 @@ class tquest
 {
 public:
 	static int joblookup[16];
-	static pmutex questsmutex;
+	static std::mutex questsmutex;
 	static std::map<int, tquest*> quests;
 
 	struct qitem
