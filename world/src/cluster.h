@@ -317,7 +317,7 @@ public:
 	tgrid grid;
 	bool endprg;
 	pmutex clustermutex;
-	std::vector2<mcon*> connections;
+	std::array<mcon*, 2> connections;
 	sqlquery dbaccounts;
 	sqlquery dbaccounts4load;
 	sqlquery dbcharacters;

@@ -5,6 +5,8 @@
 
 #define RUNEFLYFF_VERSION "${RUNEFLYFF_VERSION}"
 
+#define CSV_IO_NO_THREAD
+
 #cmakedefine MSVC_BUILD
 
 #cmakedefine MYSQL_SUPPORT

@@ -5,6 +5,7 @@
 #include "character_base.h"
 #include "funkciok.h"
 #include "cluster.h"
+#include <regex>
 #include <string>
 #include "stringf.h"
 #include "main.h"
@@ -3725,19 +3726,15 @@ void itemidsearch(tplayer &player, const char *p)
 	s1.freeup();
 }
 
-void mobidsearch(tplayer &player, const char *p)
+void mobidsearch(tplayer &player, const char *mobSearchText)
 {
-    // fixme: iterable<mobdata2> mobs = player.cl->mobsearch(p); // return iterable<mobdata2>
-    // fixme: std::foreach(mobs.begin(), mobs.end(), mob -> player.greentext(player.cl->print("%s %s", mob.id, mob.name)))
-
-	sqlquery &s1=player.cl->dbmonsterlist;
-
-	std::string str="name like '%";
-	str+=p;
-	str+="%'";
-	s1.selectw(str, "id, name");
-	while(s1.next())player.greentext(player.cl->print("%s %s", s1[0].c_str(), s1[1].c_str()));
-	s1.freeup();
+    for (auto &mob : monsterlist)
+    {
+        if (std::regex_search(mob.name, std::regex(mobSearchText, std::regex::icase)))
+        {
+            player.greentext(player.cl->print("%d %s", mob.id, mob.name.c_str()));
+        }
+    }
 }
 
 void tplayer::addtoFslot()

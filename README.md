@@ -50,18 +50,18 @@ Changelog
 0.75.0
 ---
 Convert the following tables from MySQL to static files
-- [ ] drops
+- [x] drops
     - tdrop -> rune::model::DropData2
 - [ ] itemlist
 - [x] itemspawns
     - itemspawn -> partial: rune::model::spawn::ItemSpawn
 - [x] mobspawns
     - mobspawn -> partial: rune::model::spawn::MobSpawn
-- [ ] monsterlist
-- [ ] npcdialogs
-- [ ] questdialogs
-- [ ] questdrops
-- [ ] questitems
+- [x] monsterlist
+- [x] npcdialogs
+- [x] questdialogs
+- [x] questdrops
+- [x] questitems
 - [ ] skillist
 - [ ] skillist2
 

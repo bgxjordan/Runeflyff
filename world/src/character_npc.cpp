@@ -8,6 +8,7 @@
 #include "logger.h"
 #include "stringf.h"
 #include "quest.h"
+#include "io/file/csv.h"
 
 using namespace std;
 
@@ -236,20 +237,29 @@ character_npc::character_npc(cluster *c, int npctype, string n, float x1, float 
 		}
 	}
 	if(chattext!="")cl->addnpcchat(this, npcchatremover);
-	sqlquery s1(cl->connections[0], "npcdialogs");
-	s1.selectw("npcid="+toString(dbid));
-	tnpcdialog nd;
-	while(s1.next())
-	{
-		nd.link=s1["linktext"];
-		nd.dialogs[0]=s1["dt1"];
-		nd.dialogs[1]=s1["dt2"];
-		nd.dialogs[2]=s1["dt3"];
-		nd.dialogs[3]=s1["dt4"];
-		nd.dialogs[4]=s1["dt5"];
-		npcdialogs.push_back(nd);
-	}
-	s1.freeup();
+
+    {
+        io::CSVReader<7> reader("resources/npcdialogs.csv");
+        reader.read_header(io::ignore_extra_column, "npcid", "linktext", "dt1", "dt2", "dt3", "dt4", "dt5");
+
+        int npcId;
+        std::string linkText, dt1, dt2, dt3, dt4, dt5;
+
+        while (reader.read_row(npcId, linkText, dt1, dt2, dt3, dt4, dt5))
+        {
+            if (dbid == npcId) {
+                tnpcdialog nd;
+                nd.link = linkText;
+                nd.dialogs[0] = dt1;
+                nd.dialogs[1] = dt2;
+                nd.dialogs[2] = dt3;
+                nd.dialogs[3] = dt4;
+                nd.dialogs[4] = dt5;
+
+                npcdialogs.push_back(nd);
+            }
+        }
+    }
 }
 
 void character_npc::sndshop(buffer *bs)

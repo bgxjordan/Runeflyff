@@ -55,24 +55,17 @@ public:
 		reconnect_l();
 
 	}
-	bool init(char *mysqlhost, char *mysqluser, char *mysqlpasswd, char *mysqldb)
+	bool init(const std::string &mysqlhost, const std::string &mysqluser, const std::string &mysqlpasswd, const std::string &mysqldb)
 	{
 		ul m=mcmutex.lock();
-		my_bool reconnect = 1;
 
-		host=mysqlhost;
-		user=mysqluser;
-		passwd=mysqlpasswd;
-		db=mysqldb;
-		con=mysql_init(0);
-		if(!mysql_real_connect(con, host.c_str(), user.c_str(), passwd.c_str(), db.c_str(), 0, (char*)0, 0))
-		{
-			return false;
-		}
+		host = mysqlhost;
+		user = mysqluser;
+		passwd = mysqlpasswd;
+		db = mysqldb;
+		con = mysql_init(nullptr);
 
-		//mysql_options(con, MYSQL_OPT_RECONNECT, &reconnect);
-
-		return true;
+        return mysql_real_connect(con, host.c_str(), user.c_str(), passwd.c_str(), db.c_str(), 0, nullptr, 0) != nullptr;
 	}
 	bool query(const std::string &str, MYSQL_RES **res, int &fieldcount, int &errnum, std::string &errstr)
 	{

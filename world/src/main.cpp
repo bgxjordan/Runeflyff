@@ -21,13 +21,13 @@
 
 #include "quest.h"
 
-char serverip[256]="localhost";
-char mysqlhost[256]="localhost";
-char mysqluser[256]="root";
-char mysqlpasswd[256]="qwert";
-char mysqldb[256]="flyff3";
+std::string serverip="localhost";
+std::string mysqlhost="localhost";
+std::string mysqluser="root";
+std::string mysqlpasswd="qwert";
+std::string mysqldb="flyff3";
 int mysqlport=0;
-std::vector2<mcon*> connections;
+std::array<std::unique_ptr<mcon>, 2> connections = { std::make_unique<mcon>(), std::make_unique<mcon>() };
 
 charserver *cserver=0;
 std::map<int, tplayer*> globaldbidplayers;
@@ -41,7 +41,6 @@ sqlquery dbitems;
 sqlquery dbmails;
 sqlquery dbslots;
 sqlquery dbskilllist2;
-sqlquery dbmonsterlist;
 sqlquery dbguilds;
 sqlquery dbguilds_g;
 sqlquery dbcharacters_g;
@@ -257,7 +256,7 @@ try{
 	try
 	{
 		initprochandlers();
-		void init11();
+		extern void init11();
 		init11();
 		initsetbonuses();
 		//mysql_library_init(-1, 0, 0);
@@ -268,7 +267,7 @@ try{
 		if(sizeof(int)!=4)throw std::runtime_error("Int is not 4 bytes!");
 		if(sizeof(long long)!=8)throw std::runtime_error("Long long is not 8 bytes!");
 		if(sizeof(float)!=4)throw std::runtime_error("Float is not 4 bytes!");
-        logger.log("Runeflyff v%s - Login\n", RUNEFLYFF_VERSION);
+        logger.log("Runeflyff v%s - World\n", RUNEFLYFF_VERSION);
 #ifdef WIN32
 		logger.log("Windows");
 #endif
@@ -289,32 +288,29 @@ try{
 		srand((unsigned)time(0));
 		std::ifstream fl1;
 		fl1.open("server.txt");
-		fl1.getline(&mysqlhost[0], 256);
-		fl1.getline(&mysqluser[0], 256);
-		fl1.getline(&mysqlpasswd[0], 256);
-		fl1.getline(&mysqldb[0], 256);
+		std::getline(fl1, mysqlhost);
+		std::getline(fl1, mysqluser);
+		std::getline(fl1, mysqlpasswd);
+		std::getline(fl1, mysqldb);
 		fl1 >> mysqlport >> servernumber;
 		fl1.close();
 		mysqlport = 3306;
 
 		logger.log("mysql connections\n");
-		connections.resize(2);
 		for(a=0;a<(int)connections.size();a++)
 		{
-			connections[a]=new mcon();
 			connections[a]->init(mysqlhost, mysqluser, mysqlpasswd, mysqldb);
 		}
 
-		dbaccounts.init(connections[0], "accounts");
-		dbcharacters.init(connections[0], "characters");
-		dbmails.init(connections[0], "mails");
-		dbskilllist2.init(connections[0], "skilllist2");
-		dbmonsterlist.init(connections[0], "monsterlist");
-		dbguilds.init(connections[0], "guilds");
+		dbaccounts.init(connections[0].get(), "accounts");
+		dbcharacters.init(connections[0].get(), "characters");
+		dbmails.init(connections[0].get(), "mails");
+		dbskilllist2.init(connections[0].get(), "skilllist2");
+		dbguilds.init(connections[0].get(), "guilds");
 
-		dbguilds_g.init(connections[0], "guilds");
-		dbcharacters_g.init(connections[0], "characters");
-		dbguildsiege.init(connections[0], "guildsiege");
+		dbguilds_g.init(connections[0].get(), "guilds");
+		dbcharacters_g.init(connections[0].get(), "characters");
+		dbguildsiege.init(connections[0].get(), "guildsiege");
 
 		dbmails.del("createdate < " + toString(((int)time(0))-15*24*60*60));
 
@@ -326,7 +322,7 @@ try{
 		dbcharacters.addupdate("loggedin", "0");
 		dbcharacters.addupdate("party", "-1");
 		dbcharacters.update("id>=0");
-		sqlquery s1(connections[0], "guilds");
+		sqlquery s1(connections[0].get(), "guilds");
 		dbcharacters.query("select g.id from guilds g, characters c where g.ownerid=c.id and c.guild!=g.id;");
 		while(dbcharacters.next())
 		{
@@ -354,7 +350,7 @@ try{
 	tguild::loadallguilds();
 	int nclusters=0;
 	{
-		sqlquery s1(connections.at(0), "clusters");
+		sqlquery s1(connections.at(0).get(), "clusters");
 		s1.selectw(std::string("sid=")+toString(servernumber), "count(*)");
 		nclusters=0;
 		if(s1.next())nclusters=toInt(s1[0])-1;
@@ -367,11 +363,11 @@ try{
 	{
 		tparty::initparties(nclusters*cluster::nmaxplayers/2);
 		{
-			sqlquery s1(connections.at(0), "clusters");
+			sqlquery s1(connections.at(0).get(), "clusters");
 			s1.selectw("sid="+toString(servernumber)+" AND cid=0");
 			if(s1.next())
 			{
-				snprintf(serverip, 256, "%s", s1["ip"].c_str());
+			    serverip = s1["ip"];
 			}else
 			{
 				logger.log("Error: Couldn't load serverip from database!(set to localhost)");
@@ -382,7 +378,7 @@ try{
 		logger.log("Worldserver started on %d\n", 15400);
 		logger.log("Starting clusters\n");
 		{
-			clusters=new clustercont(connections.at(0), nclusters, servernumber);
+			clusters=new clustercont(connections.at(0).get(), nclusters, servernumber);
 		}
 		FD_ZERO(&mreadfds);
 		FD_SET((unsigned int)serversocket, &mreadfds);
@@ -439,7 +435,6 @@ mainloop_end:
 	dbcharacters.freeup();
 	dbmails.freeup();
 	dbskilllist2.freeup();
-	dbmonsterlist.freeup();
 	dbguilds.freeup();
 
 	dbguilds_g.freeup();

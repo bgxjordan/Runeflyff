@@ -28,7 +28,7 @@ class character_npc:public character_base
 	struct tnpcdialog
 	{
 		std::string link;
-		std::string dialogs[5];
+		std::array<std::string, 5> dialogs;
 	};
 	std::vector2<tnpcdialog> npcdialogs;
 	schedulerl<character_npc*>::sremover npcchatremover;

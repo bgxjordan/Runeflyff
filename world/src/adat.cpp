@@ -47,9 +47,10 @@ void setskillelement(int skill, int e, float d=0.5)
 	}
 }
 
-template <typename Model> void fromCSV(const std::string &csvFile);
+template <typename Model> void fromCSV(const std::string&);
 
-template<> void fromCSV<mobdata2::tdrop>(const std::string &csvFile);
+template<> void fromCSV<mobdata2>(const std::string&);
+template<> void fromCSV<mobdata2::tdrop>(const std::string&);
 
 void datainit()
 {
@@ -66,7 +67,7 @@ void datainit()
 	monsterlist.resize(1000);
 
 	itemdata id1;
-	sqlquery s1(connections[0], string("itemlist"));
+	sqlquery s1(connections[0].get(), string("itemlist"));
 	s1.select("max(id)");
 	if(s1.next())
 	{
@@ -255,7 +256,7 @@ void datainit()
 	itemlist[3532].adjparamval1=2;
 
 	sqlquery &s2=dbskilllist2;
-	sqlquery s9(connections[0], "skilllist");
+	sqlquery s9(connections[0].get(), "skilllist");
 	s2.select();
 	a=0;
 	while(s2.next())
@@ -415,91 +416,31 @@ void datainit()
 	cskilllist[21].sval2=150;
 
 	logger.log("Monster data\n");
-	sqlquery &s3=dbmonsterlist;
-	s3.select();
-	int m_id=s3.getColumnIndex("id");
-	int m_str=s3.getColumnIndex("str");
-	int m_sta=s3.getColumnIndex("sta");
-	int m_dex=s3.getColumnIndex("dex");
-	int m_intl=s3.getColumnIndex("intl");
-	int m_Level=s3.getColumnIndex("Level");
-	int m_AtkMin=s3.getColumnIndex("AtkMin");
-	int m_AtkMax=s3.getColumnIndex("AtkMax");
-	int m_Size=s3.getColumnIndex("Size");
-	int m_ElementalType=s3.getColumnIndex("ElementalType");
-	int m_AddHp=s3.getColumnIndex("AddHp");
-	int m_HR=s3.getColumnIndex("HR");
-	int m_ER=s3.getColumnIndex("ER");
-	int m_ExpValue=s3.getColumnIndex("ExpValue");
-	int m_FxpValue=s3.getColumnIndex("FxpValue");
-	int m_Flying=s3.getColumnIndex("Flying");
-	int m_giant=s3.getColumnIndex("giant");
-	int m_NeturealArmor=s3.getColumnIndex("NeturealArmor");
-	int m_speed=s3.getColumnIndex("Speed");
-	int m_atkd=s3.getColumnIndex("ReAttackDelay");
-	int m_name=s3.getColumnIndex("name");
-	int m_cash=s3.getColumnIndex("Cash");
-	int m_relectric=s3.getColumnIndex("ResistElectricity");
-	int m_rfire=s3.getColumnIndex("ResistFire");
-	int m_rwind=s3.getColumnIndex("ResistWind");
-	int m_rwater=s3.getColumnIndex("ResistWater");
-	int m_rearth=s3.getColumnIndex("ResistEarth");
-	a=0;
-	while(s3.next())
-	{
-		b=toInt(s3[m_id]);
-		while((int)monsterlist.size()<=b)monsterlist.push_back(mobdata2());
-		monsterlist[b].id=b;
-		monsterlist[b].name=s3[m_name];
-		monsterlist[b].str=toInt(s3[m_str]);
-		monsterlist[b].sta=toInt(s3[m_sta]);
-		monsterlist[b].dex=toInt(s3[m_dex]);
-		monsterlist[b].intl=toInt(s3[m_intl]);
-		monsterlist[b].level=toInt(s3[m_Level]);
-		monsterlist[b].atkmin=toInt(s3[m_AtkMin]);
-		monsterlist[b].atkmax=toInt(s3[m_AtkMax]);
-		monsterlist[b].size=toInt(s3[m_Size]);
-		if(monsterlist[b].size<=0)monsterlist[b].size=100;
-		monsterlist[b].element=toInt(s3[m_ElementalType]);
-		monsterlist[b].hp=toInt(s3[m_AddHp]);
-		monsterlist[b].hit=toInt(s3[m_HR]);
-		monsterlist[b].flee=toInt(s3[m_ER]);
-		monsterlist[b].exp=toInt(s3[m_ExpValue]);
-		monsterlist[b].fxp=toInt(s3[m_FxpValue]);
-		monsterlist[b].flying=toInt(s3[m_Flying]);
-		monsterlist[b].giant=(toInt(s3[m_giant])!=0);
-		monsterlist[b].def=toInt(s3[m_NeturealArmor]);
-		monsterlist[b].speed=toFloat(s3[m_speed]);
-		monsterlist[b].attackdelay=toInt(s3[m_atkd]);
-		monsterlist[b].cash=toInt(s3[m_cash]);
-		monsterlist[b].resistele[0]=toFloat(s3[m_rfire]);
-		monsterlist[b].resistele[1]=toFloat(s3[m_rwater]);
-		monsterlist[b].resistele[2]=toFloat(s3[m_relectric]);
-		monsterlist[b].resistele[3]=toFloat(s3[m_rwind]);
-		monsterlist[b].resistele[4]=toFloat(s3[m_rearth]);
-		monsterlist[b].valid=true;
-		a++;
-	}
-	s3.freeup();
+    fromCSV<mobdata2>("resources/monsterlist.csv");
 
-
-	for(std::map<int, tquest*>::iterator questIter=tquest::quests.begin();questIter!=tquest::quests.end();++questIter)
+	for (auto &questMap : tquest::quests)
 	{
-		for(std::map<int, tquest::tquestitems>::iterator questItemsIter=questIter->second->questitems.begin();questItemsIter!=questIter->second->questitems.end();++questItemsIter)
-		{
-			monsterlist.at(questItemsIter->second.monsterid)
-                .quests.push_back( mobdata2::questdata(
-                    questItemsIter->second.dropid,
-                    questItemsIter->second.number,
-                    questItemsIter->second.dropchance,
-                    questIter->second) );
-		}
-		a=0;
-		for(std::vector2<std::pair<int, int> >::iterator j=questIter->second->killmobs.begin();j!=questIter->second->killmobs.end();++j)
-		{
-			monsterlist.at(j->first).quest_killmobs.insert(std::pair<int, std::pair<int, int> >(questIter->second->questid, std::pair<int, int>(j->second, a)));
-			a++;
-		}
+        for (auto &questItems : questMap.second->questitems)
+        {
+            monsterlist
+                .at(questItems.second.monsterid)
+                .quests
+                .emplace_back(mobdata2::questdata(
+                        questItems.second.dropid,
+                        questItems.second.number,
+                        questItems.second.dropchance,
+                        questMap.second));
+        }
+
+        int counter = 0;
+        for (auto &killmob : questMap.second->killmobs)
+        {
+            monsterlist
+                .at(killmob.first)
+                .quest_killmobs
+                .insert(std::pair<int, std::pair<int, int> >(questMap.second->questid, std::pair<int, int>(killmob.second, counter)));
+            counter++;
+        }
 	}
 
 	fromCSV<mobdata2::tdrop>("resources/drops.csv");
@@ -512,6 +453,7 @@ void datainit()
 	logger.log("Drops\n");
 	std::vector2<std::list<mobdata2*> > levelmobs;
 	levelmobs.resize(explist.size()+1);
+
 	for(a=0;a<(int)monsterlist.size();a++)
 	{
 		if(monsterlist[a].id>0)
@@ -625,11 +567,9 @@ void datainit()
 
 	dmd(5995, 577);
 
-
-	for(int a=0;a<(int)mdrops.size();a++)
-	{
-		itemlist[mdrops[a].dropid].mobid=mdrops[a].mobid;
-//		monsterlist[mdrops[a].mobid].mdrop=mdrops[a].dropid;
+	for (auto &mdrop : mdrops) {
+        itemlist[mdrop.dropid].mobid = mdrop.mobid;
+//        monsterlist[mdrop.mobid].mdrop=mdrop.dropid;
 	}
 /*
 	monsterlist[21].mdrop=2950;mdrops.push_back(tmdrop(2950, 21));
@@ -646,8 +586,79 @@ void datainit()
 #undef dmd
 }
 
-template<> void fromCSV<mobdata2::tdrop>(const std::string &csvFile) {
-    io::CSVReader<7> reader("resources/drops.csv");
+template<> void fromCSV<mobdata2>(const std::string &csvFile)
+{
+    io::CSVReader<27> reader(csvFile);
+    reader.read_header(io::ignore_extra_column,
+            "id",
+            "str", "sta", "dex", "intl", "Level",
+            "AtkMin", "AtkMax", "Size",
+            "ElementalType", "AddHp", "HR", "ER",
+            "ExpValue", "FxpValue", "Flying", "giant",
+            "NeturealArmor", "Speed", "ReAttackDelay",
+            "name", "Cash",
+            "ResistElectricity", "ResistFire", "ResistWind", "ResistWater", "ResistEarth");
+
+    int id,
+        str, sta, dex, intl, lvl,
+        atkMin, atkMax, size,
+        elementalType, addHp, hr, er,
+        expVal, fxpVal, flying, giant,
+        defense, attackDelay, cash;
+
+    std::string name;
+
+    float speed,
+        resistElectric, resistFire, resistWind, resistWater, resistEarth;
+
+    while(reader.read_row(id,
+            str, sta, dex, intl, lvl,
+            atkMin, atkMax, size,
+            elementalType, addHp, hr, er,
+            expVal, fxpVal, flying, giant,
+            defense, speed, attackDelay,
+            name, cash,
+            resistElectric, resistFire, resistWind, resistWater, resistEarth))
+    {
+        while (monsterlist.size() <= id)
+        {
+            monsterlist.push_back(mobdata2());
+        }
+
+        monsterlist[id].id = id;
+        monsterlist[id].name = name;
+        monsterlist[id].str = str;
+        monsterlist[id].sta = sta;
+        monsterlist[id].dex = dex;
+        monsterlist[id].intl = intl;
+        monsterlist[id].level = lvl;
+        monsterlist[id].atkmin = atkMin;
+        monsterlist[id].atkmax = atkMax;
+        monsterlist[id].size = size <= 0 ? 100 : size;
+        monsterlist[id].element = elementalType;
+        monsterlist[id].hp = addHp;
+        monsterlist[id].hit = hr;
+        monsterlist[id].flee = er;
+        monsterlist[id].exp = expVal;
+        monsterlist[id].fxp = fxpVal;
+        monsterlist[id].flying = flying;
+        monsterlist[id].giant = static_cast<bool>(giant != 0);
+        monsterlist[id].def = defense;
+        monsterlist[id].speed = speed;
+        monsterlist[id].attackdelay = attackDelay;
+        monsterlist[id].cash = cash;
+        monsterlist[id].resistele[0] = resistFire;
+        monsterlist[id].resistele[1] = resistWater;
+        monsterlist[id].resistele[2] = resistElectric;
+        monsterlist[id].resistele[3] = resistWind;
+        monsterlist[id].resistele[4] = resistEarth;
+        monsterlist[id].valid=true;
+    }
+}
+
+template<> void fromCSV<mobdata2::tdrop>(const std::string &csvFile)
+{
+    io::CSVReader<7> reader(csvFile);
     reader.read_header(io::ignore_extra_column,
                        "mobid", "minlvl", "maxlvl", "itemid", "dropchance", "nmin", "nmax");
 

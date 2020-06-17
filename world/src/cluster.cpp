@@ -425,13 +425,6 @@ void cluster::cmain()
 	bool schsh=false;
 	long long lastclupdate=0, schs=0, siegestatupdate=0;
 
-	connections.resize(2);
-	for(a=0;a<(int)connections.size();a++)
-	{
-		connections[a]=new mcon();
-		connections[a]->init(mysqlhost, mysqluser, mysqlpasswd, mysqldb);
-	}
-
 	dbaccounts.init(connections[0], "accounts");
 	dbcharacters.init(connections[0], "characters");
 	dbitemlist.init(connections[0], "itemlist");

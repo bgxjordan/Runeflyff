@@ -1,0 +1,1430 @@
+questid,dialognum,str,state
+41,0,Do you lnow the heros who saved the world? Of course you do not. It happen long time ago. I do not much know myself.,0
+41,1,I think you will eventually become great. I know. But not yet..,0
+41,2,We are playing <Legend of Heros>. Come to see it sometime.,0
+41,3,Oh. You are Acrobat. Sorry but this request is not for Acrobat. Go to Darkon village and find what you can do there.,0
+42,0,There are many secret in Madrigal. I have lived over 1000 but there are more secret I do not know that that I know.,0
+42,1,"Do you want to be strong? To become strong, you need to put that much effort, which you did not.",0
+42,2,Every thing will be done as it should be. You just have to fallow it.,0
+43,0,<Heros Shine> is place where guide and guard parth of heros.,0
+43,1,You are not worthy enough to fallow parth of heros. I cannot guide you.,0
+43,2,Only brave and strong will guide you to parth of heros.,0
+43,3,"Heros, they are looking at you all the times, Fallow the parth of heros. They will look after you.",0
+43,4,You are not worthy enough to fallow parth of heros. I cannot guide you.,0
+43,5,Only brave and strong will guide you to parth of heros.,0
+43,6,We are here because of the heros. We should alwway be thankful to them.,0
+43,7,You are not worthy enough to fallow parth of heros. I cannot guide you.,0
+43,8,Only brave and strong will guide you to parth of heros.,0
+43,9,"<Exchange of there sacrifice, we have peaceful days. Heros gave us peaceful days...> I really like this song.",0
+43,10,Come back after you have grown up.,0
+43,11,Something is not right. I lost something. Where is my treasure?,0
+44,0,"The one fallowing parth of heros, bravery and strong will follow him,",0
+44,1,"You do not belong here, and I not the one should talk to, yet. Come back after you got more experience.",0
+44,2,See the world with heart of hero. Than you will become hero.,0
+45,0,"Accepting will of hero is easy but also hard, and not anyone can do it.",0
+45,1,You are not ready yet. Come back after you got more experience.,0
+45,2,You are the true hero. Bless for hero. Glory for hero.,0
+48,0,Do you often go into this dungeon?,0
+48,1,"Yes, I understand.",0
+48,2,I see. The truth is I have been ask to fined evidence of problem in the dungeon. But I got thing to do in here. So will you find evidence for me?,0
+48,3,"You are not as sensitive as you look. Anyway, if you found anything, please let me know.",0
+48,4,Thank you. Please find evidence as soon as passible.,0
+48,5,"Hmm, it will be good to help others time to time.",0
+48,6,"If you go into this dungeon, I am pity monsters. (Only Lv 20 ~ 50 can do this dungeon quest.)",0
+49,0,"If you accept it, Isruel might give you someting.",0
+49,1,"If you cange mind, come back to be anytime.",0
+49,2,Hello. Do you have a good time?,0
+50,0,Would you help us to the end?,0
+53,0,You have chose Acrobat. I hope you will never regret it. There is a simple test before starting the training. Are you ready?,0
+53,1,I want to check if you did your best when you were vagrant. Go and hunt 40 Aibatts during 7 minutes,0
+53,5,Good luck. Attention! Flyff!,0
+53,6,Did you say that you do not choose Acrobat? Fine. Just keep in mind that you are the owner of the world whatever job you choose!,0
+53,7,Fine. You passed the first training.,0
+53,10,Hunt 40 during only 7 minutes. You will never become Acrobat if you cannot compelet even this!!,0
+53,15,You have already chosen another path. I can no longer help you.,0
+54,0,Good job. Now it is time for the next training.,0
+54,1,"Get 10 Twinkle Stones which are in the eyes of Aibatt, 5 Peakyrinds which are back skin of Peakyturtle, 1 Slain which is the tail bone of Lawolf.",0
+54,2,And go and find <Pyre> who is the Acrobat Master with the items you get. <Pyre> is nearby of the Request Center so you can find easily.,0
+54,5,Good luck.,0
+54,6,Do you like being a vagrant? Then I do not want to force you. But it is not that easy to catch a chance.,0
+54,7,It seems like you passed the first training successfully since you brought these. Then I will let you know about the weapons. Acrobat uses 2 weapons like bow and yoyo.,0
+54,8,Bow is a long distance attacking weapon. It consumes 1 arrow for 1 attack. Also there are 4 attacking steps and the damage of the next step is bigger than that of the former step.,0
+54,9,Yoyo is the double discuses and you can hold it in both hands and attacking with both hands are also possible. The attacking is very splendid but there is no attacking step. So what do you think?,0
+54,10,I think you should bring me something if you met <Hent>. He had to direct you something. Hmmâ€¦,0
+55,0,Do you fully understand about the weapon now? Here is the next training. You know the High-Dwarpet. Sometimes they come to the <River of falling tear> for bathing.,0
+55,1,But they loose things very open. These days <Tucani> asked to find out <Book of Technique> which he lost. Would you find and bring it to him instead of me?,0
+55,2,He will tell you something when you bring him <Book of Technique>. Are you asking where you can find it? Of course in the <River of falling tear>.,0
+55,5,Then have a nice day.,0
+55,6,It seems like you do not know the attractiveness of Acrobat. I think it is too attractive to give up easily.,0
+55,7,Oh! You brought me <Book of Technique>! Thanks. Thanks. Maybe <Pyre> asked of you. Anyway I want to give you a present to appreciate. Please listen.,0
+55,8,Just remember that the Bow consums MP and the Yoyo consums FP. And there are 6 skills of Bow and 7 skills of Yoyo. Also there are 3 common skills and I will let you know <Dark Illusion> among of them.,0
+55,9,This is a hiding skill. You can avoid the eyes of others with this. Sounds so cool right? But be careful because whenever you attack or use other skill it dose not work. Take this and keep it carefully.,0
+55,10,It is surprising you come to meet me. What do you want? What? Did <Pyre> send you? Hmmâ€¦ then why are your hands empty?,0
+56,0,So what do you think about the excellent skills of Acrobat? It is great right?,0
+56,1,Now I will let you know about the next training. There is a <Shuraiture> guy who is really pain in the neck in nearby of the Darkon village entrence. And this guy isâ€¦ oh my neck hurtsâ€¦,0
+56,2,Oh it is okay now. So this guy is harassing people in the village these days. Get and bring him to the trainer <Tailer>. He will be so pleased.,0
+56,5,Good luck!,0
+56,6,This is why I hate human being. They give up so easily!,0
+56,7,Oh this note isâ€¦ and you also brought <Shuraiture>â€¦ You are really great. Thanks! He was a really pain in the neck. So now I will reward you since you passed the last test.,0
+56,8,All of approaching/ in a middle distance/ in a long distance attack is possible for Acrobat. Also Acrobat can drag the enemy who is far away to in front of itself.,0
+56,9,There is no job like Acrobat which has very various aspects. I hope you fully understand this job and never regret your choice through the trainings so far.,0
+56,10,Is there any reason you come to me? Did <Tucani> send you? Hmmâ€¦ then why did you come?,0
+57,0,Thank you for visiting here. But I am not sure whether you deserve to be a successor of Jester of not.,0
+57,1,So there is one simple test. Hunt 20 Drillers in Darkon. Not small or captain one.,0
+57,5,Show me your ability.,0
+57,6,You cannot stand the rough and difficult way of the successor of Jester if you cannot pass even this simple test.,0
+57,7,Good job. I recognize your ability.,0
+57,10,Jest would never hold out your hand if you fail to hunt 20.,0
+57,15,You do not deserve to be a successor of hero Jester.,0
+58,0,Congratulation! You passed the test. Here is the letter of recommendation. Please go and find <Radion> who is the Jester Wise Man at the <Fountain of the Dead> in Flaris with it.,0
+58,1,He is a different person with Great Wise Man <Radion>. He is Jester Wise Man <Radion>. Please don not forget and before thatâ€¦,0
+58,2,You have to get <Ren> who lives in the <Fantastic Desert> in the north of Saint Morning and bring the ring which <Radion> lost.,0
+58,5,Hope your dream come ture.,0
+58,6,Do not you have the confidence? There is nothing impossible if you have the confidence. I hope you make wise choise.,0
+58,7,Oh! Thank you very much for bringing me the ring! Actually this ring belongs to the Jester hero <Kerenen>. <Ren> wanted to have this ring all the time as I heard.,0
+58,8,"After the war was ended and <Kerenen> dead, he was finding this ring for hundreds of years and finally found it a few years ago. Thank you anyway.",0
+58,10,Have you met <Lorein>? Did not you bring anything to me even though you met her? Hmmâ€¦ There is something you should bring me. Think carefully.,0
+59,0,Thank you again for the ring. And there is someone you should meet.,0
+59,1,Go and find <Pepoview> troupe in the Saint Morning and find a member whose name is <Clockkeble> with this ring. You can get something very useful.,0
+59,5,You can make your dream come true if you want it deeply. Therefore you will become Jester if you really want.,0
+59,6,Are you playing with me? Or do not you go to the Saint Morning? I do not understand. Hmmâ€¦ Do not make any choice too easily.,0
+59,7,Ohâ€¦ Thank you so much for finding this ringâ€¦ We are performing ancestral ceremony of <Kerenen>. But we lost this ring a few years agoâ€¦,0
+59,8,But you brought me the ring. It seems like you deserve to be a successor. I will give you a scroll.,0
+59,10,Did not <Radion> tell you to bring me something? Do not you have anything?,0
+60,0,This scroll proves that you deserve to be a successor. Please bring this scroll and meet Jester priest.,0
+60,1,Jester priest is at the Jester altar in Darkon <???}. Show her this and then she will recognize you as a successor of hero.,0
+60,2,Oh. There is something to do before you go to the priest. 1 of the jewels of hero which is the preasure of Jester Altar has been stolen these days.,0
+60,3,The jewels are to protect the soul of hero but it would not work even 1 is missing. The priest said <Cicipue> appeared around the altar some days agoâ€¦,0
+60,4,And the priest thinks that it stoled the jewel. Please hunt it and check if it has the jewel of hero.,0
+60,5,Gook luck.,0
+60,6,Hmmâ€¦ You should not give up now. Cheer up and make your dream come true.,0
+60,7,This is the seal of <Kerenen>â€¦ and the jewel of heroâ€¦ So <Cicipue> was the one who stole the jewel. Thank you very much.,0
+60,8,Now we can protect <sould of hero> safely. Thank you. Thank you.,0
+60,10,Would you let me know the reason why you visit me? I do not think you have any reason.,0
+61,0,Now you have to meet the guardian. Please deliver this mark to the protector. And there is one thing you have to do before that.,0
+61,1,There is <Room of Guardian> in <Guardian>. This is where the will of heros are preserved.,0
+61,2,Also there is <Venelguardian> which is the guardian soul here. It is a soul which protects the will of hero. You have to get the heart of this soul after combating with it.,0
+61,3,Only after getting the heart the guardian will recognize you as Jester. It means that this is the last test to be Jester. Please pass the test.,0
+61,5,I wish your luck,0
+61,6,Now only the last test left. Do you really give up right now?,0
+61,7,Welcome. You passed the last test. Now I appoint you as a successor of Jester officially.,0
+61,8,<Kerenen>! His will! Here is a man how wants to follow you. Please bless and give him courage. Jesterexshines!,0
+61,10,I think you come to meet me because the priest sent you. But you have not passed the last test.,0
+62,0,Thank you for visiting here. But still I am not sure if you deserve to be a successor of Rainger.,0
+62,1,So there is a simple test for you. Hunt 20 Drilles in Darkon. Not Small or Captain ones.,0
+62,5,I believe you can do that.,0
+62,6,You would better give up to be a successor of Ranger if you cannot pass this kind of simple test.,0
+62,7,Good job. You passed the first test.,0
+62,10,The will of Ranger will not choose you if you fail to hunt 20.,0
+62,15,You do not deserve to be a successor of Ranger,0
+63,0,Congratulation! You passed the test. Bring this letter of recommendation and go to Ranger Wise Man <Kimel> at the <Fountain of the Dead> in Flaris.,0
+63,1,And find <Rubo> who lives in habitat of <Syliaca> in the cave of Darkon2 before meeting him. <Kimel> was taken his letter away by it.,0
+63,2,Hunt it and bring the letter to him,0
+63,5,I wish your luck.,0
+63,6,Do not you have confidence? There is nothing you cannot do if you have confidence. I hope you will make a wise choice.,0
+63,7,Yes! This is what I have looking for! Ha ha ha. Actually this letter belongs to Ranger hero <Hynan>. <Hynan> left this letter to his parents in the heaven after he went away.,0
+63,8,But <Hynan> lost this letter during the war. And I have heard <Rubo> has this letter some days ago.,0
+63,9,Thank you anyway.,0
+63,10,Did you meet <Eliff>? Then why are your hands empty? Did not she ask you something? That makes no senseâ€¦,0
+64,0,Thank you very much for bring me the letter. And there is someone you have to meet.,0
+64,1,Bring this letter and meet High-Dwarpet <Lienkael> at the northwest entrance of Darkon village.,0
+64,5,You dream will come true if you want deeply. You can become Ranger if you really want. Of course!,0
+64,6,Are you kidding? Or do you get tired of everything? I do not understandâ€¦ Do not make any choice too easily.,0
+64,7,Oh! It is the letter! Ha ha ha. Thanks! Actually I was a steward of <Hynan> family. But I am administering the keepsake of <Hynan> these days.,0
+64,8,This letter is the last keepsake but was stolen a few years ago. Now fortunately I found it! He he he. I want to reward you.,0
+64,9,Here you are. Keep it carefully because it is very precious.,0
+64,10,Do not you have anything to deliver me from <Kimel>? Are you sure he did not say anything?,0
+65,0,This scroll prove that you deserve to be a successor. Bring it and find the Ranger preist.,0
+65,1,Jester priest is at Ranger Altar in Darkon <Ancienight>. He will recognize you as a successor of hero if you show this.,0
+65,2,Oh. There is something to do before you go to the priest. Prankster in <Garden of Rhisis> took away all of <History of Hero>.,0
+65,3,It consists of 8 books and is very precious. The priest will be very pleased if you found all of this and bring it to him.,0
+65,5,Cheers! Do not die. He he.,0
+65,6,What? You are so silly. You are almost there but now you give up? How stupidâ€¦,0
+65,7,This is definitely the seal of <Hynan>. Also you brought all of 8 books of <History of Hero>. Thank you. Thank you.,0
+65,8,I have never thought that I can get it back. Thank you very much.,0
+65,10,Is there any reason why you should come to me? I do not think so.,0
+66,0,Now you have to meet the guardian. Please deliver this mark to the guardian. Also there is one thing you have to do before that.,0
+66,1,There is <Room of Guardian> in the <Guardian>. This is where the will of heroes are preserved.,0
+66,2,There is <Venelguardian> who is the guardian soul and protect the will of hero. You have to get its heart through combating with it.,0
+66,3,The guardian will recognize as Ranger only when you get its heart. So this is the last test to be Ranger. You have to pass it.,0
+66,5,Good luck.,0
+66,6,It is the only test left. Are you sure you will not regret after giving up now?,0
+66,7,Welcome. You passed the last test. Now I appoint you as a successor of Ranger officially.,0
+66,8,<Hynan>! His will! Here is a man how wants to follow you. Please bless and give him courage. Rangerexshines,0
+66,10,I think you come to meet me because the priest sent you. But you have not passed the last test,0
+67,0,Are you saying that you are going to the most dangerous Decanes?,0
+67,5,Then visit a Dwarpet whose name is Rankashu instead of me and ask him to let you know the answer of my question. He is in font of the Dekanes mine.,0
+67,6,Ha ha~ I knew you would say no. It is definitely scary.,0
+67,7,Thank you. This is the ID card into the mine. Do not think ill of me when you dead and become the vindictive spirit. It is your choice.,0
+67,10,Why is it that difficult to get some news? You are extraordinary incompetent. Just go quickly.,0
+68,0,I am the son of Nevil who was the great chief of Keakoon. We were friendly to human being.,0
+68,1,We helped human to develop the mine. But we became miserable after they left.,0
+68,2,My farther is especially miserable because he is having hard time in the prison in that old age. Please help me and rescue him.,0
+68,5,We need a key to open the door of the prison where my farther is. Keakoons insind of it is keeping the 3 pieces of the key. Bring them to me.,0
+68,6,You are liar. You are not my friend!,0
+68,7,Ohâ€¦Thank youâ€¦(crying) Thank you very much for your help.,0
+68,10,You have to gather 3 different pieces of the key. It would not that easy.,0
+69,0,To be honestâ€¦ Sorry my friend but I still have one more request. Please free my farther from the prison instead of me.,0
+69,5,You are my real friend. Bring this key and free my farther. Then I will reward you. Please.,0
+69,6,Finally human being is unbelievable fellow. Right?,0
+69,7,"",0
+69,10,The prison where my farther is in Keakoon village which is in the most right side. Please hurry up.,0
+70,0,Thank you a lot. You should be so brave that you requested me. I am sorry but would you do me a favor?,0
+70,5,Actually I have 2 requests. First please hunt the captains of Keakoon and bring me the seal which can prove that I am the chief of the Keakoon. Second please bring me my package which my son is keeping.,0
+70,6,You can not be a brave man if you do not help others even though you have the power.,0
+70,7,"Thank you, I hope Keakoon and human being can be friendly as they did in the past. This ring is a gift for you. By the way you really like adventure.",0
+70,8,This mine is the best place if you want adventure. If you want more thrill visit Bernard in Darkon village. Maybe you can solve the secret of this cursed mine. And this key is for moving to next zone. Please be carful because it is very dangerous.,0
+70,10,Hmmâ€¦ It would be not that difficult since you could resque me.,0
+71,0,Hmmâ€¦ Is that the ring of Keakoon Nevil around your finger? Maybe you resqued Nevil and quelled a rebellion of Keakoons.,0
+71,1,Then would you do me a favor? Roachfl is related to the death of people in the mine before.,0
+71,2,I need the blood of the larva of that thing to reveal the relation between that thing and the death of people. Would you bring it to me?,0
+71,5,Thank you. There are two kinds of Roachfl - Pinky and Blue. And you can get the blood when you break the egg and hunt of Roachfl. Maybe you can open the entrance door easily.,0
+71,6,You cannot get the real treasure if you avoid danger.,0
+71,7,"Oh, Thank you. Now I have collected every material on their habit and character.",0
+71,10,No~No~ Bring me more information. The vindictive spirits which died in the mind are looking at you.,0
+72,0,I found out that the toxicity of the Roachfl is related to the death of people in the mine after studying the blood of the larvars.,0
+72,1,Especially the fatal virus to human being comes out from the queen of Roachfl â€“ Roachqueen as I found out.,0
+72,2,Bring me the blood of Pinky and Blue Roachqueen in order to make vaccine. Can you do that?,0
+72,5,To wake up Roachqueen you have to sprinkle this liquid on its eggs. Please be careful because Roachqueen is very dangerous.,0
+72,6,Why do not you help me out by the end?,0
+72,7,Now I can comfort numbers of sprits which died in the mine because of you. This vaccine will make them powerless.,0
+72,8,Here is a weapon which I give to you as a present. And you can go deep into the mine with this ID card.,0
+72,9,It is all of a sudden that the Roachfles came up in the mine. Maybe you can find out the reason when you go deep into the mine.,0
+72,10,I belive you can do that. You can bring your company if you need.,0
+73,0,What brought you here? Do not know you that so many people died here in the past? Oh. Are you here to check the death of many people?,0
+73,1,You can not found out the course and events without my help. If you do my favors I will let you know about it. What do you think?,0
+73,5,Fine. But I have to test you before telling you my requests. There are stones which is called Cillin here in the mine lot. Bring me 30 Cillins.,0
+73,6,You would better go home and take a nap if you cannot bring even the stones.,0
+73,7,Hmmâ€¦ You pass but it was very simple testâ€¦ Fine. Here is my request. Please keep this money as my present.,0
+73,10,I said 30. Not 29 or 28. Bring me 30 Cillin.,0
+74,0,The reason why I am here in this Dekanes mine is to dig mineral which is called Ribenuum. You can get Ribenuum only here in this wide Darkon area.,0
+74,1,Because Ribenuum is made only when Green Trillipy eats stone and makes its backplate. The Green Trillipy lives only here.,0
+74,2,But it is really dangerous. And human being is also dangerous so why do not you bring it to me?,0
+74,5,Green Trillipy is in the room of the right side after going out of the passage which is different from the one which you entered through. Maybe it is easy to find out because you cannot go into the left side.,0
+74,6,Are you kidding me? Go home and do not make a fun of a kind Dwarpet like me.,0
+74,7,Anyway you brought 20 Ribenuums. But these Ribenuums has some flaw.,0
+74,10,Is not it a piece of cake to bring 30 Ribenuum?,0
+75,0,These Ribenuums you brought have too low degree of purity. It is very easy for Dwarpets to refine Ribenuum actually. But other Dwarpets would laugh at me if I bring these Ribenuums.,0
+75,1,Finally I have to refine these Ribenuums in the human village and there is only one person who can do that as I know. His name is Nein and he worked in this mine before.,0
+75,2,Would you bring these Ribenuums to him and let them refined? Then bring them back to me. Okay?,0
+75,5,I have heard that Nein lives somewhere in the Dead Walldernis Desert. Go and bring me back the Ribenuums which have high degree of purity. Maybe they will become 10 after refining.,0
+75,6,Are you kidding me? Go home and do not make a fun of a kind Dwarpet like me,0
+75,7,You are so great that you bring me these Ribenuums which have high degree of purity. Here are necklace and some money as reward.,0
+75,10,Yeahâ€¦maybe it is too diffulcult for youâ€¦ Why do not you just go home?,0
+76,0,Ribenuum is useless metal to human being. Do you have a Dwarpet friend? Ha ha ha. Let me see. These have too low degree of purity. It is hard to refine them without nothing.,0
+76,1,I need some special metal which is called Triduum in order to refine them. You can get this metal only from the backplate of Violet Trillipy. But it lives only deep in the Dekanes mine.,0
+76,2,In addition you need a special ID card to go into there. Wellâ€¦if you really need Ribenuumâ€¦bring me 20 Triduums. I need 20 to refine them.,0
+76,5,Fine. First you need the ID card to go into where Violet Trillipy lives. You would better find and ask the former laborers of mine.,0
+76,6,Ha ha ha. It would be okay to do that if you need. Hope you are not doing this only for Dwarpet,0
+76,7,Here are the Ribenuums with high degree of purity which I refined with the materials you brought. But if Dwarpet Kazen asked you theseâ€¦there should be something in his mind.,0
+76,8,Because he really hates human beingâ€¦ So there should be a reason if he was friendly to you. Also there is a rumor which says he is related to the mysterious death in mine.,0
+76,9,So tell me right away if there is something suspicious with him. Maybe I can help you.,0
+76,10,Why do not you give up and just relax?,0
+77,0,What? Do you want to know where Violet Trillipy lives? You are really curious about the cursed mine. There is not much people who knows about it.,0
+77,1,Only a few of the mine laborers can go into the area. I do not know anything about the mine laborers or ID card. Oh! You would better to visit Bernard.,0
+77,5,Fine. Please say hi to him anyway.,0
+77,6,You are right. You do not need to suffer.,0
+77,7,Violet Trillipyâ€¦. Do you mean you want to go into there?,0
+77,10,Why do not you give up and just relax?,0
+78,0,It is not difficult to give you the ID card butâ€¦I do not want to make people dieâ€¦hicâ€¦ Fine. Hunt some Watangka if you want to prove that you have the ability.,0
+78,1,You can hunt Violet Trillipy if you can hunt them.,0
+78,5,"Then, take care~",0
+78,6,Hmmâ€¦ Violet Trillipy is stronger than them.,0
+78,7,Okay. Here is the ID card. Please come back alive.,0
+78,10,Hic~ Why do not you just relax?,0
+80,0,Some kinds of grapes for wine are growing is Madrigal. Especially the wines which are made from <Flaris variety>/<Saint variety>/<Darkon variety> are,0
+80,1,named <Beaujolais> and you can get mysterious power when you drink them according to the legend.,0
+80,2,It seems like these 3 kinds of grape has a magical power of the earth as I studied for a long time.,0
+80,3,But we do not have these grapes at the moment even though it is harvest season because the monsters took them away.,0
+80,4,Therefore we can not drink the wine which we waited for a long time. In addition the monsters will get the magical power. Would you bring the grapes back?,0
+80,5,Oh thank you. There are 3 kinds of grape dividing by the growing area. Please gather 20 grapes of this area because I cannot brew wine with the grapes from other area.,0
+80,6,Hmmâ€¦ I cannot brew wine until the lifting day of Beaujolais ban in this situationâ€¦!,0
+80,7,Oh~! I can brew wine a little bit with them!! Thank you. I want to reward you with 1 bottle of Beaujolais Flaris which was made from the grapes other adventurer brought.,0
+80,8,You can find out the taste of itâ€¦enjoy yourself with it.,0
+80,10,Is this all? It is not enough to brew wine. I need more than 20 grapes at lest. Please!,0
+80,11,And if you have the grapes of other areaâ€¦you would better deliver them to the person who brew wine in that area.,0
+81,0,Some kinds of grapes for wine are growing is Madrigal. Especially the wines which are made from <Flaris variety>/<Saint variety>/<Darkon variety> are,0
+81,1,named <Beaujolais> and you can get mysterious power when you drink them according to the legend.,0
+81,2,It seems like these 3 kinds of grape has a magical power of the earth as I studied for a long time.,0
+81,3,But we do not have these grapes at the moment even though it is harvest season because the monsters took them away,0
+81,4,Therefore we can not drink the wine which we waited for a long time. In addition the monsters will get the magical power. Would you bring the grapes back?,0
+81,5,Oh thank you. There are 3 kinds of grape dividing by the growing area. Please gather 20 grapes of this area because I cannot brew wine with the grapes from other area,0
+81,6,Hmmâ€¦ I cannot brew wine until the lifting day of Beaujolais ban in this situationâ€¦!,0
+81,7,Oh~! I can brew wine a little bit with them!! Thank you. I want to reward you with 1 bottle of Beaujolais Flaris which was made from the grapes other adventurer brought,0
+81,8,If you use a skill after drinking this wineâ€¦you can try it by yourself!,0
+81,10,Is this all? It is not enough to brew wine. I need more than 20 grapes at lest. Please!,0
+81,11,And if you have the grapes of other areaâ€¦you would better deliver them to the person who brew wine in that area.,0
+82,0,Some kinds of grapes for wine are growing is Madrigal. Especially the wines which are made from <Flaris variety>/<Saint variety>/<Darkon variety> are,0
+82,1,named <Beaujolais> and you can get mysterious power when you drink them according to the legend,0
+82,2,It seems like these 3 kinds of grape has a magical power of the earth as I studied for a long time.,0
+82,3,But we do not have these grapes at the moment even though it is harvest season because the monsters took them away.,0
+82,4,Therefore we can not drink the wine which we waited for a long time. In addition the monsters will get the magical power. Would you bring the grapes back?,0
+82,5,Oh thank you. There are 3 kinds of grape dividing by the growing area. Please gather 20 grapes of this area because I cannot brew wine with the grapes from other area,0
+82,6,Hmmâ€¦ I cannot brew wine until the lifting day of Beaujolais ban in this situationâ€¦!,0
+82,7,Oh~! I can brew wine a little bit with them!! Thank you. I want to reward you with 1 bottle of Beaujolais Flaris which was made from the grapes other adventurer brought.,0
+82,8,This is very unique and mysterious wine.. If you drink thisâ€¦ wellâ€¦ try it by yourself!,0
+82,10,Is this all? It is not enough to brew wine. I need more than 20 grapes at lest. Please!,0
+82,11,And if you have the grapes of other areaâ€¦you would better deliver them to the person who brew wine in that area.,0
+83,0,Help! Help! My cash box... My money... Ahhh!! Someone stole my cash box! Oh my God!!,0
+83,1,"(After a while) Actually, I was saving money in my cash box in order to buy a present for my girlfriend, but it disappeared this morning.",0
+83,2,"So I have asked people, and they said that there are unknown thieves in north Leren Mountains these days. I am doubting them now.",0
+83,3,"But I cannot believe it before I see them with my own eyes. Could you please check them instead of me, maybe? Please~",0
+83,5,Thank you! Please bring me the evidence which proves that they really exist if you find them.,0
+83,6,"Are you saying that it is none of your business? Well, I can ask someone else. I do not need you!",0
+83,7,Hmm? So the thieves really exist. Thank you very much.,0
+83,10,"I think this is good evidence, but.. I want a more conclusive one!",0
+84,0,"I asked the witnesses with the evidence you have brought to me, and now it is clear they had stolen my cash box. Now the only thing I have to do is get back the cash box from them.",0
+84,1,I am really sorry but please do me a favor once again. I can buy the present for my girlfriend only after getting back the money inside the cash box. In addition..,0
+84,2,It will soon be our 100th day anniversary.. So would you please get my cash box back from them? I will reward you.,0
+84,5,"Thank you. Thank you very much. As I heard, one of them is keeping the cash box.",0
+84,6,You make me really dissapointed.. Phew.. It is okay..,0
+84,7,I really appreciate you.. Thank you.. Thank you.. Please receive my present.,0
+84,10,Where is my cash box? You have not found it out yet. Please bring it to me. I will be waiting.,0
+85,0,Do you know that a big meteorite has fallen into nearby Saint Morning a few days ago? But.. (Looking around),0
+85,1,(Whispering) Some pieces of broken meteorite usually changes into a very rare metal. We call it Meteoritil.,0
+85,2,It is the best material for making expensive arm or armor in Madrigal. And..,0
+85,3,"..It usually takes about 500 years to get it. But this time, we can get a really big Meteoritil.",0
+85,4,Therefore.. Would you please bring it to me secretly?,0
+85,5,Ha ha ha.. Hush! (Looking around and whispering) Then please bring me 5 Meteoritils. The meteorite has fallen somewhere in south Saint Morning.,0
+85,6,"Huh! Okay, I do not need you! You are not very kind...",0
+85,7,Oh.. This is the real Meteoritil.. How beautiful it is.. Oh my God..,0
+85,8,"(Surprising) Oh, sorry. I did not even say thank you. I was too excited.. Ha ha ha~",0
+85,9,"Thank you very much. You did really good job. Thank you, thank you. (Looking Meteoritil again and admiring it)",0
+85,10,It is not easy to get. But you will be able to get it some day if you keep trying. Ha ha ha~,0
+86,0,Oh.. Now I am in big trouble.. (Surprised) Gosh! Have you been standing there? Did you hear everything I was saying?,0
+86,1,"You heard? Hmm.. Okay, I will tell you what happened. I am in charge of play scripts. But..",0
+86,2,The new play script <The Sky of Madrigal> has disappeared. I do not know what I should do.. I will be fired..,0
+86,3,"Actually I know who stole it. His name is Colar, and I think he did it as payback for being fired. But if I am fired..",0
+86,4,Everyone will know that the play script has disappeared. Umm.. So.. Would you please do me a favor? Would you please bring me the play script from ????,0
+86,5,"Oh, Thank you very much! ??? is hiding in somewhere of Darkon1. Please find him out.",0
+86,6,Now what can I do..? I will be fired.. Oh my God..,0
+86,7,He..Hey! I do not have the play script! How could you think I do?,0
+86,8,"Well, yes. I stole it. But the grave robber who was riding some kind of strange machine took it from me.",0
+86,9,The machine was spouting steam.. And the grave robber was riding on and controlling it. That is why I am in this terrible situation now.,0
+86,10,All I know is that he is in somewhere of Darkon1. Please find him.,0
+87,0,"Hey! I am not lying! Why on earth do you not believe me? Yes, I stole the play script, but it was just simply revenge!",0
+87,1,"There is no evidence which proves that I am a liar, right? So if you want to find the play script..",0
+87,2,I think someone among them has it.,0
+87,5,"Hey! Hey! I want to get out of here! Help me, please! Hey!!!",0
+87,6,"Yes, I know it is none of your business. But help me anyway. Huh? Please!",0
+87,7,"(Crying) ..Thank you, thank you.. Finally I found it.. Thank you very much..",0
+87,8,"If you came a little bit later, everyone would know that I would be fired..",0
+87,9,This is my present for your effort. Please do not deny it. Thank you.,0
+87,10,Please find it quickly. Please.. I do not want to be fired.. Please..,0
+88,0,"Oh my God, oh my God. (Looking at me) Huh? Ahh, are you curious as to why I am so nervous? Actually we, Helpers, have a test once in a year.",0
+88,1,"And the test will be coming soon. But the date has moved up all of a sudden, so now I am worried. But I will surely pass because I am good helper!",0
+88,2,"But I have never been first because of Herth! This year, I will do anything to be first! But I need help from others.",0
+88,3,So.. Would you help me?,0
+88,5,"Thank you. You can get Helper Text Book in the office. Would you please bring it to me? It is very simple, right?",0
+88,6,"(With a glum look) Okay.. I will ask someone else.. Well, thank you anyway.",0
+88,7,"Yes, it is definitely 2 pieces of Helper Text Book. Those are the range of possible questions. Huh?",0
+88,8,Sure! Those are the range of possible questions. I am sure!,0
+88,9,Thank you very much. Please come to me if you need my help.,0
+88,10,"Oh, thank you but this Helper Text Book is not what I need. Please bring me another Helper Text Book. I am sorry.",0
+89,0,Hey! Hey! I am in big trouble now! My drawing.. My best drawing has disappeared!! (Crying),0
+89,1,(Still crying) My hobby is collecting rare and good drawings. But the most expensive one has disappeared.,0
+89,2,It is the portrait of Radion. I am doubting a lot of people now.. How can I find and get it back? Oh..,0
+89,3,Now what can I do.. Oh! I have an idea! Hey! Would you do me a favor?,0
+89,5,Fine! First please visit Helgar who is working as a connoisseur in SainCity.I am sure he knows the way.,0
+89,6,(Grabbing my throat) No! I have to get it back! Help me!!,0
+89,7,What? Has the portrait disappeared? Hmm.. I thought Rudvihil would do it someday.. Phew..,0
+89,8,Rudvihil is so mean that he would do anything to get rare and expensive things.. He is very mean..,0
+89,9,Now it is time for revenge.,0
+89,10,"Oh, do you have anything to appraise? Please show me.",0
+90,0,"I do not want to be related with Rudvihil, but I will let you know the way to get the potrait back, because it is very valuable. Listen, do you know about High-Dwarpet?",0
+90,1,"Yes, maybe you have met before. I have asked here and there about the potrait that disappeared and I heard a story which could be the way to get it back.",0
+90,2,Those High-Dwarpets are collecing ancient books and other rare treasures. Here is the key to solve this riddle. How can they collect these things more easiliy than others?,0
+90,3,"They have clairvoyance which allows them to find out where the treasures are. Well, this is just my guess..",0
+90,4,Why did you not meet them?,0
+90,5,"Yes. You know where they live, right? They live in the middle of Leren Mountains in Flaris. Please go there and meet them.",0
+90,6,You do not need to do it if you do not want. But it is great pity that I cannot see the angry face of Rudvihil. Phew~,0
+90,7,Hmm.. Really? Okay. I will do my best if it is related with the potrait of Radion. Wait a moment. (Closing eyes and chanting a spell) Hmm.. Hmm..,0
+90,8,(Opening the eyes) I found it! Moment.. (Writing something on the paper) Here you are. This is everything I can do for you.,0
+90,9,I drew the face of the thieves who stole the potrait. This is the best I can do.,0
+90,10,Now go away. I do not like human beings. Go! Never come back!,0
+91,0,Hmm.. Still we need more data in order to find out the portrait. Phew.. (Thinking for a while) Yes! Maybe he knows!,0
+91,1,Black magicians used to exist in Madrigal. They used black magic differently from the magicians now a days.,0
+91,2,And one of them made a box which has great magic power. His name was Ancimys.,0
+91,3,Maybe he can use the black magic <Psychmetria>. Huh? Are you asking me what Psychmetria is? Let me explain.,0
+91,4,It is very great magic which can form the place where something is. Now go and find him.,0
+91,5,"Oh, I almost forgot to tell you. The one who has the ability will usually explain it differently to others.",0
+91,6,"Well, it is none of my business whether you do it or not. It is all up to you.",0
+91,7,"What? Is that true? Wow, it sounds really funny! Hehe~ Wait a moment. How exciting it is!",0
+91,8,"(Blah blah.. Chanting a spell) He he he~ I got it! Okay, write down what I say.",0
+91,9,(Blah blah blah blah..) Did you finish writing down what I said? You can find out the portrait over there. It was very funny. Thank you. Bye!,0
+91,10,"Are you going to play with me? Really? Good, good! What will we do? Hide and Seek? He he he~",0
+92,0,"What? You do not understand? Hmm..(Nodding) Okay. Now you have 2 evidences, right? Let me tell you exactly.",0
+92,1,"I do not like this.. Phew.. So the 2 evidences are related to each other. Simply, both can be found in that place. Understand?",0
+92,5,Yes. Find it and do what ever you want. And never visit me again to ask this unhumorous thing. Never!,0
+92,6,You do not understand yet? Are you stupid? Find it out by yourself!,0
+92,7,"(Starting to cry as soon as see the potrait) Oh! Thanks, God! Thank you.. Thank you very much.. Now I am relieved..",0
+92,8,"(With dissatisfied look) What? Reward? Have I ever told you about a reward? You helped me because you wanted, right?",0
+92,9,You are very impolite! Now get away!! I do not need you anymore!!,0
+92,10,Have you found it? Please find and bring it to me. Please. Please.,0
+93,0,"(Whispering secretly) Hey.. Moment.. (Looking around) Sorry for my whispering, but this is secret.. Actually a Lab of Madrigal..",0
+93,1,"..In Lab of Madrigal, a secret project is going on. It is why I am disquised now. He he he~ The secret project is cloning the monster Masquerpet.",0
+93,2,"Are you asking why we are cloning it? Of course it is secret. Ha ha ha~ By the way, I need something which is very hard to get for our cloning study.",0
+93,3,"Would you please bring it to me, maybe?",0
+93,5,"Fine. In order to finishing the study of cloning Wagsaac, I need their bone. Please bring me 10 bone pieces of Wagsaac.",0
+93,6,(With a grimace) Hmm.. It seems like you are doubting me. You do not need to do that if you do not want. I can ask someone else.,0
+93,7,"Oh, these are definitely their bones. Good job. Maybe I will ask you for help again. See you then.",0
+93,10,You do not need to hurry because we have enough time. Just make sure you bring me 10 pieces.,0
+94,0,"Well, well~ Now we meet again! Long time no see! Hi hi hi~ Thank you very much for bringing me the bone pieces the other day. They were really helpful!",0
+94,1,"By the way, we need something more in order to finish the study of cloning. So.. Would you please help me once again?",0
+94,5,I knew you would! I need 10 gene pieces of Wagsaac this time. Please. Hi hi hi~,0
+94,6,"Hmm.. I do not like your attitude. Do not be too ethical, okay? You already helped me, remember?",0
+94,7,Hi hi hi~ Thank you very much! I hope I can see you again!!,0
+94,10,"As I told you before, you do not need to hurry. Just make sure to bring me 10 pieces.",0
+95,0,"Hey! Hey! He he he~ You do not know me, right? But I am sure you heard about me at Request Center. I am the Queer Collector, you know?",0
+95,1,"Yes, I am the Queer Collector. He he he~ Actually I would like to ask you something. Have you ever heard of Bonebowl? I know you have.",0
+95,2,Huh? Are you asking why I am looking for something so common? I am really looking for a very special one. The real Bonebowl of curse.. He he he..,0
+95,3,So? Do you want to help me?,0
+95,5,Yes. That is what I am saying. He he he~ You can find Bowler who is the bowl merchant in Rhsis garden. Please go and ask him. He he he~,0
+95,6,"I can pay you as much as you want, because I am rich! But I do not have anyone to ask. So please help me. Huh?",0
+95,7,Hmm.. Finally the Queer Collector appeared.. He really wanted to have the Bonebowl.. (Thinking for a while),0
+95,8,(Suddenly) Ha ha ha ha!! There is no one who would ask this kind of thing except for him!! What a funny man!! Ha ha ha ha!!!,0
+95,10,Hello~ Are you looking for something special?,0
+96,0,"Bonebowl was created by a black magician long long time ago. In a town, Masquerpet and human beings were living together before Hero War. But,",0
+96,1,"A woman fell in love with a Masquerpet and became pregnant. In result, both of them were kicked out of the town. Then, Masquerpet died..",0
+96,2,"..And the woman came back to the town. But the people in town killed the woman and her baby, and the black magician made a bowl with the head bone of her baby. And he cursed it.",0
+96,3,"The town disappeared because of the curse afterwards. And anyone who has the bowl cannot arrive. These are the facts about the bowl. (After a minute) Well, I am talking to much.",0
+96,4,"So you told me you want the real Bonebowl, right? Then would you please bring me the things I ask you?",0
+96,5,"Fine. Bring me 10 Black Tombmarbles from Tombstonebearers, 5 Black Spell Books and 5 Black Heroka Grass in somewhere of Rhsis Garden.",0
+96,6,Well.. The Queer Collector is not lucky. But he can find out someone else who likes money. Ha ha ha ha~,0
+96,7,You did great job. Thanks. Now let me make it with these~,0
+96,10,You did not bring me everything I asked. Please make it sure you have to bring me as much as I asked. Okay?,0
+97,0,"To be honest, it disappeared long time ago. It corroded because it was bone regardless of being cursed.",0
+97,1,That is why I asked you to bring me these meterials. These are the meterials that the black magician uses in order to curse Bonebowl.,0
+97,2,"I do not have the power to curse it as strongly as the black magician did, but I can curse it anyway as much as the collector could.",0
+97,3,"Now, please bring this Bonebowl to the Queer Collector.",0
+97,5,Fine. The Queer Collector will be very happy. Ha ha ha~,0
+97,6,"Oh, do not be too afraid because I packed it with cloth in order to keep you away from the curse. Ha ha ha~",0
+97,7,"Oh.. (Crying) You finally found it out. Oh, oh.. I cannot express enough how beautiful it is.. Oh.. Beautiful..",0
+97,8,Good job. Now you can go.,0
+97,10,"Not yet? Hey, I have been waiting so long! Please go and bring it to me. Quickly!!",0
+98,0,Hmm.. We are in big trouble now. Do you know what happened? (Looking at me for a while) The socks are gone. The socks..,0
+98,1,"Are you asking why I am making a big deal with socks? Are you serious? These are not the normal socks, these are the Christmas socks which have the wishes of children!",0
+98,2,"A few days ago, every sock was stolen in Madrigal. I figured out that Masquerpet(Monster) did it. Now we are in big trouble.",0
+98,3,Would you please help me make a wishful Christmas in Madrigal?,0
+98,5,Thank you. Please hunt every Masquerpet in Madrigal and bring me 500 socks. I will definitely reward you.,0
+98,6,"No, no.. This Christmas will be tragic without the socks.. Oh..",0
+98,7,Ha ha ha~ I knew you would! Thank you so much! (Making a long face) But.. We still lack enough socks.. Hmm..,0
+98,10,"Hey.. I told you I need 500 socks. I know 500 socks are a lot, but it is not that difficult to get.",0
+99,0,"Hey, you! (Pointing at me) Yes, you! Come here. Come! Coooome!!!",0
+99,1,"You know Christmas socks, right? Now it disappeared. Maybe you do not know well, but this is very big accident. Are you listening?!!",0
+99,2,"A few days ago, every sock was stolen in Madrigal. I figured out that damn Masquerpet(Monster) did it. Now we are in big trouble. God damn it!!",0
+99,3,"You can help me create a wishful Christmas in Madrigal, right?",0
+99,5,"Good. Go and hunt Masquerpet, and bring me 300 socks. Yes, I will reward you. Go!!",0
+99,6,Hey! Are you going to make this Christmas into a nightmare? Are you crazy?,0
+99,7,Ha ha ha~ Good job! Thank you! (Becoming the long face) But.. We still lack of socks.. Hmm..,0
+99,10,Hey.. Are you stupid? Or you cannot count? I told you 300 socks!! 300!!,0
+100,0,Hey.. We are in big trouble now. The socks.. The socks.. (Crying for a while) Now what should I do? I have to get the socks back!,0
+100,1,The socks have the wishes and dreams of cute children. But.. But.. (Start to cry again),0
+100,2,(Stop crying) Every sock was stolen a few days ago in Madrigal. I figured out that Masquerpet(Monster) did it. Now we are in big trouble.,0
+100,3,Would you please help me create a wishful Christmas in Madrigal? (Tearing),0
+100,5,Thank you. Please hunt every Masquerpet in Madrigal and bring me 100 socks. I will definitely reward you.,0
+100,6,But.. (Crying) This Christmas will be sorrowful without the socks..,0
+100,7,Ho ho ho~ I knew you would! Thank you so much! (Becoming the long face) But.. We still lack enough socks..,0
+100,10,I told you we need 100 socks..,0
+101,0,Hey! Please help me! (Crying) Please find my daughter. Please.. (Crying),0
+101,1,"My daughter disappeared a few years ago. I have reported her missing to the office and tried to find her myself, but..",0
+101,2,"I have done eveything I can do so far, but.. But I could not find her.. (Crying).. So the last thing I can do now is to ask Vagrants to help me..",0
+101,3,Please.. Please find my daughter.. Please.. (Crying),0
+101,5,"Thank you, thank you. I think you can obtain some information from Porgo, who lives in nearby Saint Hall. He will definitely know something.",0
+101,6,(Falls in a faint) Bang!,0
+101,7,"Hmm.. JeongHwa has not given up on finding her daughter yet. What a pity, but her daughter is not the only child who disappeared at the time.",0
+101,8,"Most of the girls in SainCity disappeared. After that, I formed a citizen investigation team, but we failed to discover any clues.",0
+101,9,"Now I am the only one left from the team, but I am still investigating the case because it is still very suspecious.",0
+101,10,"I am the leader of the investigation team responsible for finding the kidnapped children of SainCity, but now I am the only one who left.. Phew..",0
+102,0,"The case of disappeared kids? Hmm.. A few years ago, a lot of girls under 6 years old have suddenly disappeared in SainCity.",0
+102,1,"Everyone was trying to find the kids, but they failed.",0
+102,2,"But I never gave up and keep trying to solve the case. Finally I found out many things, and reported them to the office.",0
+102,3,"However I was rejected due to the lack of evidence. So as I gathered the evidence, I suddenly came up with an idea when I saw the strange Musquerpet, Mia.",0
+102,4,So.. Would you please help me?,0
+102,5,Fine. Then please combat with 20 Small Mias and tell me about their character.,0
+102,6,I am asking you to do instead of me because it is hard for me to do it by myself. But I cannot force you.. Phew..,0
+102,7,"Yes.. Yes.. Okay.. Ha ha ha~ Now I got it. This will be enough. Thank you, my friend.",0
+102,10,"I need the exact information. In order to figure out their character, you have to combat with 20 of them at least.",0
+103,0,"Damn! (Being angry) Damn mayor! I did my best to get the information, but..!! Damn!!!",0
+103,1,"Well, I told him I brought the evidence. Then he told me it was too long ago and nobody cares about the case anymore.",0
+103,2,That was everything he told me.. Damn.. How can I show him my data.. Hmm.. (Thinking for a while) Yes! There is a way!,0
+103,3,"Hey, would you help me once more?",0
+103,5,"Fine, please bring this data to the mayor instead of me. Maybe you should wait until he comes back from the tour of city.",0
+103,6,.....(Staring me angrily),0
+103,7,"Hmm.. Porgo never gave up.. Well, then please bring this to him, and tell him to never come to me for this case again. Never.",0
+103,10,Ha ha ha~ I tour the city everyday in order to listen the opinions of citizen. Have a wonderful adventure!,0
+104,0,"Hmm.. Is this it? (Checks it for a while) Yes, this is it! This is what I thought! The identity of Mia was the disappeared girls!!",0
+104,1,"How can they keep this secret.. (Checking it more carefully) Oh, I almost forgot to let JeongHwa know about this.",0
+104,2,But she would not believe me with this data only.. (Thinking) Hmm.. Hmm.. Aha! If her daughter was among Mias.,0
+104,3,"If there is her daughter among Mias, she would still keep the thing which she liked very much. Hey, I need it in order to persuad JeongHwa. Would you bring it to me, please?",0
+104,5,"JeongHwa had a daughter whose name was Jinyoung. She liked her doll very much as I heard. I can persuade JeongHwan with the doll, maybe.",0
+104,6,"Hey, if you do not help me, JeongHwa will be dead soon because her daughter disappeared. What a pity! You have to think about this carefully.",0
+104,7,"(Start to cry as soon as she sees the doll) This is.. This is definitely the doll of my daughter.. Oh, my poor Jinyoung.. (Crying)",0
+104,10,Have you found my daughter yet? She is so cute and lovely that you can recognize her right away.,0
+105,0,"Yes! This is it! This report was definitely written with all the facts, but not all the facts were completely proven.",0
+105,1,And the color of some papers in the report is a little bit different. It seems like they were added later.,0
+105,2,It is because they are keeping something secret. But I got the exact evidence. It seems like they did not find the memo. Please take a look.,0
+105,3,"<..Change the pages, and bury the original one nearby of Saint Hall.> They are stupid! Ha ha ha! You can never keep the truth secret.",0
+105,4,"Hey, would you help me? This case is really important.",0
+105,5,"Fine. If this is true, the original report was buried somewhere nearby of Saint Hall. Please bring it to me.",0
+105,6,"I know you are not pleased to do something. But I am too old to do this, and.. Blah blah blah..",0
+105,7,"Oh, yes, yes. You finally found it out. Thank you very much. I will do my best to uncover the truth. Good job.",0
+105,10,Hmm. Maybe it is not that easy to find it out. Please check the places again. There would be some kind of mark which you can figure out.,0
+106,0,"Oh my God, I am in big trouble.. (Calling me) Hey, wait! Please listen to me. The biggest holiday in Madrigal, Lunar New Year, is coming soon.",0
+106,1,"So Losha made special Ddukguk for the holiday and asked me to keep it. But the Masquerpet(Monster) heard of it, and..",0
+106,2,..and they took every Ddukguks away. I could not do anything because I was really terrified.. Now what should I do? Losha will kick me out if she knows this.,0
+106,3,Would you..please help me for happy Lunar New Year of Madrigal? Please..?,0
+106,5,Thank you! Please hunt every Masquerpet in Madrigal and bring me 100 Ddukguks. I will definitely reward you!,0
+106,6,Are you really going to kick me out? Becoming a cook is my dream. Please help me. I cannot give up now.,0
+106,7,"Thank you, thank you so much! Here you are. It is my little present.",0
+106,10,Well.. I told you I need 100 Ddukguk..,0
+107,0,(Calling me) Listen to me carefully. Actually I am writing a book now because there is very good story. But I cannot finish it by myself.,0
+107,1,"Hey, have you ever heard about the legend of Dradpet? It seems like you have not. Long long time ago, there was very famous adventurer. His name was <Big Syred>. One day, he found out a interesting place to adventure.",0
+107,2,"It was a big cave in the deep underground which was surrounded with bloody fog. There was it, Big Muscle, which was also called Horrible Fear.",0
+107,3,"Big Syred disappeared after meeting this Horrible Fear, as I know.. It is great story, huh? Dredpet, the fear. Cooool!!",0
+107,4,So I want to ask you to become Big Syred and adventure the cave just like he did. Then tell me your story. Would you?,0
+107,5,Fine. Please go and hunt Organigor which lives in the Field of Bubble. Then you can get Book of Fear1. Also please find their fortress in the field.,0
+107,6,It will be great adventure. I will give you half of the sales from my book. Do you still want to do it?,0
+107,7,"Oh, you are really great!! Here you are. This is the heart of Syred. How odious it is!",0
+107,8,"But you need this in order to meet Dradpet, so be careful not to lose it. Once you lose it, you will never get it back, okay?",0
+107,9,"Now please go and meet Dradpet Manager in the south of Leren Mountains, then he will show you the way. Oh, and you have to join a troupe before you go, because it is hard to do it by yourself. Okay?",0
+107,10,I know it is hard to combat with Organigor because it was infected by the Horrible Fear. But I believe you can do it. Good luck!,0
+108,0,(Calling me) Listen to me carefully. Actually I am writing a book now because there is very good story. But I cannot finish it by myself.,0
+108,1,"Hey, have you ever heard about the legend of Dradpet? It seems like you have not. Long long time ago, there was very famous adventurer. His name was <Krren Dacid>. One day, he found out a interesting place to adventure.",0
+108,2,"It was a huge temple in the sky. There was it, Krrr, which was also cold Cold Fear.",0
+108,3,"Krren disappeared after meeting this Cold Fear, as I know.. It is great story, huh? Dredpet, the fear. Cooool!!",0
+108,4,So I want to ask you to become Krren Dacid and adventure the temple just like he did. Then tell me your story. Would you?,0
+108,5,Fine. Please go and hunt Gangard which lives in the Field of Bubble. Then you can get Book of Fear2. Also please find their holy land in the field.,0
+108,6,It will be great adventure. I will give you half the money when I sell my book. Do you still want to do it?,0
+108,7,"Oh, you are really great!! Here you are. This is the heart of Krren. How odious it is!",0
+108,8,"But you need this in order to meet Dradpet, so be careful not to lose it. Once you lose it, you will never get it back, okay?",0
+108,9,"Now please go and meet Dradpet Manager in Madren, then he will show you the way. Oh, and you have to join a troupe before you go, because it is hard to do it by yourself. Okay?",0
+108,10,I know it is hard to combat with Gangard because it was infected by the Cold Fear. But I believe you can do it. Good luck!,0
+109,0,(Calling me) Listen to me carefully. Actually I am writing a book now because there is very good story. But I cannot finish it by myself.,0
+109,1,"Hey, have you ever heard about the legend of Dradpet? It seems like you have not. Long long time ago, there was very famous adventurer. His name was <Moot Arvan>. One day, he found out a interesting place to adventure.",0
+109,2,"It was wet marsh. There was it, Mushmoot, which was also cold Unpleasant Fear.",0
+109,3,"Moot disappeared after meeting this Cold Fear, as I know.. It is great story, huh? Dredpet, the fear. Cooool!!",0
+109,4,So I want to ask you to become Moot Arvan and adventure the marsh just like he did. Then tell me your story. Would you?,0
+109,5,Fine. Please go and hunt Hadeseor which lives in Field of Bubble. Then you can get Book of Fear3. Also please find their marsh in the field.,0
+109,6,It will be great adventure. I will give you half the money when I sell my book. Do you still want to do it?,0
+109,7,"Oh, you are really great!! Here you are. This is the heart of Moot. How odious it is!",0
+109,8,"But you need this in order to meet Dradpet, so be careful not to lose it. Once you lose it, you will never get it back, okay?",0
+109,9,"Now please go and meet Dradpet Manager in the eastern RIver of Weeping, then he will show you the way. Oh, and you have to join a troupe before you go, because it is hard to do it by yourself. Okay?",0
+109,10,I know it is hard to combat with Hadeseor because it was infected by the Cold Fear. But I believe you can do it. Good luck!,0
+110,0,"What can I do? Oh, they make my crazy.",0
+110,1,"In fact, they invaded and brought our family treasure, and left a memo yesterday. I was really terrified..",0
+110,2,..so I could not do anything at all even though the family treasure is very precious.,0
+110,3,"If I knew this would happen in advance, I would donate it to the office..",0
+110,4,So.. What can I do now? Phew.. Could you help me perhaps? Please.. Please..,0
+110,5,"Thank you, thank you. I guess the leader of thieves is keeping the treasure. Please get it back to me.",0
+110,6,..Phew.. Okay.. I was depending on you too much. I am sorry.,0
+110,7,"Oh, this is definitely my family treasure, Entanalle Sword. Thank you. Thank you very much!",0
+110,8,This sword was made by Entanalle Boineo who is the founder of my family. It was made of the bone of an ancient animal..,0
+110,9,I would like to give you this in return. It is because only you can keep this from the thieves. Please take it.,0
+110,10,"The leader ot thieves is not that easy to defeat, I think.",0
+111,0,(Clenching his fist) I will never forgive them! How can they insult my family..,0
+111,1,"Now their leader was defeated, so this means that it is great chance to get all of them away!",0
+111,2,I will do whatever it takes in order to defeat all of them. Would you help me? Of course I will reward you.,0
+111,5,I knew you love justice! Please defeat all of them and bring me the evidence. That is all I want.,0
+111,6,"Well, you have helped me a lot. Maybe that should be enough. Thank you. I will take care of this by myself..",0
+111,7,Hmm.. Is this the symbol of them? Hmm.. Hmm.. It is more sophisticated than I thought. Here you are. This is my present.,0
+111,10,Not yet? I know defeating all of them takes time. You do not need to hurry.,0
+112,0,"This.. This symbol.. I remember this.. If I am right, the real leader of troupe is not the one you defeated.",0
+112,1,(Shaking with fear) If it is the one I know.. If I am right.. You really have to find and defeat him!! If you do not.. Then..,0
+112,2,(Shaking his head) Anyway! We have to defeat him before he finds out us! Please help me!!,0
+112,3,Please.. We really have to defeat him.. This is my last wish.. Please..,0
+112,5,"Thank you, thank you! His name is <Lord Bang> and lives somewhere in Darkon. Please go there and find him out.",0
+112,6,......(Crying),0
+112,7,Hmm.. This is definitely the one I know.. Now we can be relieved because he does not exist in this world anymore. Phew~,0
+112,10,Hurry up! We lack of time! It will not take long until he finds us. We have to defeat him ASAP in order to prevent the disaster..,0
+113,0,You! Long time no see! I discovered new evidence from the disappearance case.,0
+113,1,"According to this report, there is one more thing in common with the kids who disappeared in SainCity. They are all girls.",0
+113,2,But I cannot find out what the common thing is in this report. So I have to find it out by myself..,0
+113,3,So.. Would you please help me?,0
+113,5,"Ha ha ha! I really like your personality!! Please go and combat with Mia and Captain Mia, and let me know the common thing between them.",0
+113,6,I would appreciate it if you can help me.. Maybe you have something else to do. I understand. Bye. See you later.,0
+113,7,Fine. You are really great! Ha ha ha! Thank you!,0
+113,10,"Have you found out the common thing of them? Well, I know it is not easy, but you can find it out.",0
+114,0,Damn! It really annoys me! I found out the common thing between them based on the data you brought me. It was supernatural power!,0
+114,1,These kids were afraid of the former mayor and their parents..,0
+114,2,..They decided to kick them out of the city. So the kids were abandoned. Damn!,0
+114,4,We have to uncover the truth of this case. Please help me.,0
+114,5,"You are really great! Here you are. Bring it to the mayor of SainCity, and ask him to check the case again.",0
+114,6,How can you deny to help those poor kids? You are really mean!,0
+114,7,"Hmm.. I did not know this before. Okay, let me make a special inquiry group and check the case again. Please tell Porgo I said thanks.",0
+114,10,"SainCity is being developed even today~ By the way, why did Porgo tell you to meet me?",0
+115,0,We made an inquiry group and started to check the case again. I cannot believe this tragic has happened in SainCity.,0
+115,1,But better late than never. Would you tell Porgo that we started to check the disappearance case again?,0
+115,5,Thank you. I will do my best to make SainCity more beautiful and peaceful.,0
+115,6,"I tour the city every day, so I cannot tell him by myself. Please tell him what I said instead of me.",0
+115,7,Yes.. Now I have done what I have to do.. Yes.. (Looking at the sky and tearing),0
+115,8,(It seems like he feels sorry for the innocent kids who were kicked out..),0
+115,10,Have they started to check the case again yet? I hope they hurry up..,0
+116,0,"Oh, hello? Do I know you? Hmm.. Sometimes I am not sure whether I know someone or not.. I am too old. Ha ha ha ha~",0
+116,1,"(Looking around and whispering secretly) Hey, you know what? Something very very rare and expensive. Have you heard about that?",0
+116,2,"How have you heard this amazing story..? Hey, listen. Let me tell you. There is something very very rare and valuable somewhere of Saint Morning.",0
+116,3,"How? Great story, right? Hi hi hi~ (Imagining something)",0
+116,4,"(Looking at me again) Hey, please do me a favor. It is very simple. Would you?",0
+116,5,Hi hi hi~ Actually I would really like to get the rare and valuable thing. But there is nothing I know about it. So please go <Helgar> who is connoisseur in SainCity.,0
+116,6,What? You do not want to do that? You are really impolite! Damn!,0
+116,7,Hmm? What brings you here? (Tell him about Rudvihil) Ha ha ha~ That story is really something which Rudvihil would be interested in.,0
+116,8,Rudvihil always wants to have something which is rare and valuable. It is very important to him.,0
+116,10,Have you found out something rare and valuable? Let me judge it.,0
+117,0,Actually I have no idea about the rare and valuable thing. The only thing I know is that it is the egg of Redmantis..,0
+117,1,So.. Maybel.. (Hesitating) I am sorry.. But would you please help me?,0
+117,5,"RedmantisC is female Redmantis, and it bears the special egg which is called Redyspawn. Please bring me the egg.",0
+117,6,This is because of not only Rudvihil but also me. I also want to see it. It will be a great experience for you. So please bring it to me.,0
+117,7,"Oh, this is it! Hmm.. Let me check it whether it is really useful or not. Please wait a moment.",0
+117,10,"It is not that difficult for you to defeat RedmantisC, I think. Am I wrong?",0
+118,0,"Now I got it! This Redyspawn is rare but not that worthful. Meanwhile, I have found out something in the old judgment book.",0
+118,1,"It is <Emeraldispawn>. You can only get it once a year. Since it is so difficult to get, it has become very valuable.",0
+118,2,The reason of its rareness is because its mother. I think this is the rare and valuable one which Rudvihil is looking for.,0
+118,3,Would you please bring this to me?,0
+118,5,"The mother lives somewhere in the middle of Hillid Mountains. It is breeding time now, so maybe you can get the egg.",0
+118,6,As I told you.. Hmm.. Rudvihil will reward you enough. He is not that stingy.,0
+118,7,Oh! (Admiring) This.. This is it.. It is beautiful.. So beautiful..,0
+118,8,"(Looking at me) Oh, Thank you. This is my present for you. It is not useful to me, but it will be very useful for you. Ha ha ha~",0
+118,10,"",0
+119,0,"Hello~ I am <Nina> who is the wife of Poul standing over there. Our family wants to move to here because my husband loves this place very much, but..",0
+119,1,..but we do not have money to buy a house. So we decided to build a house by ourselves. However.. (Start crying),0
+119,2,"(Crying) However, people said that we have to hunt Masquerpet(Monster) if we want to build a house. How can we do that? (Crying)",0
+119,3,Could you please help our family?,0
+119,5,Thank you!! Then please bring me drying Rootioe. You can get it from any Masquerpet as far as I know.,0
+119,6,You are so cruel.. (Crying),0
+119,7,"Thank you, thank you.. Thank you very much!!",0
+119,10,We still are missing some... Please bring me more. Please.,0
+120,0,"Hello~ I am <ChiChi> who is the daughter of Poul standing over there. Our family wants to move to here because my daddy loves this place very much, but..",0
+120,1,..but we do not have money to buy a house. So we decided to build a house by ourselves. However.. (Start crying),0
+120,2,"(Crying) However, people said that we have to hunt Masquerpet(Monster) if we want to build a house. How can we do that? (Crying)",0
+120,3,Could you please help our family?,0
+120,5,Thank you!! Then please bring me drying Rootioe. You can get it from any Masquerpet as far as I know.,0
+120,6,You are so cruel.. (Crying),0
+120,7,"Thank you, thank you.. Thank you very much!!",0
+120,10,We still are missing some... Please bring me more. Please.,0
+121,0,"Hello~ I am <PiPi> who is the son of Poul standing over there. Our family wants to move to here because my daddy loves this place very much, but..",0
+121,1,..but we do not have money to buy a house. So we decided to build a house by ourselves. However.. (Start crying),0
+121,2,"(Crying) However, people said that we have to hunt Masquerpet(Monster) if we want to build a house. How can we do that? (Crying)",0
+121,3,Could you please help our family?,0
+121,5,Thank you!! Then please bring me drying Rootioe. You can get it from any Masquerpet as far as I know.,0
+121,6,You are so cruel.. (Crying),0
+121,7,"Thank you, thank you.. Thank you very much!!",0
+121,10,We still are missing some... Please bring me more. Please.,0
+122,0,Hey! It is you! I was looking for you. It seems like you are connected to each other..,0
+122,1,"After Lord Bang died, I have heard some rumors about the Red Bang Troupe which I thought disappeared a while ago. There are various rumors.",0
+122,2,I cannot just ignore the rumors because I am really afraid of them..,0
+122,3,So please help me. Would you?,0
+122,5,Fine. There is a actually a doubtful place. The place is nearby Erons Factorys2 in Darkon1. Please check the place.,0
+122,6,"We cannot just ignore the rumors. If they still exist, we are in great danger!",0
+122,7,Really? Then I was right.. They really still exist.. Hmm..,0
+122,10,Did you find out anything? It makes no sense.. Please check there again carefully. Please.,0
+123,0,They still exist.. This means that they have new leader now.,0
+123,1,"I though getting rid of their leader will solve the problem, but.. Now what should we do? If the new Lord Bang.. Then..",0
+123,2,"Then now we are in a really big trouble, because it is becoming more dangerous than anything else. Anyway..",0
+123,3,"If there is a new group, we can find some signs of them in Flaris. Woud you please help..?",0
+123,5,I am sure that the group of them live in the north Leren Mountains. It is a different place. So please check there.,0
+123,6,(Being angry all of a sudden) If we! If we let him live.. Ahh!!(Screaming),0
+123,7,Hmm.. Now everything is clear. There is new Lord Bang now. It is clear.,0
+123,10,Obviously! Obviously there is! Please find out it. You have to!!!,0
+124,0,(Calling me urgently) Hey! Wait! Please help me! Please!,0
+124,1,"I had a dream last night. A place which is full of machines that were burning, so everything was red. People was screaming and panic.",0
+124,2,"It was really horrible. After I woke up, I realized that it was Erons Factorys in Darkon1. Erons Factorys!",0
+124,3,Please help me. A lot of people are in danger.,0
+124,5,"Fine. Now please go and visit Amatolka who is a guard leader in Erons Factorys, and tell him about my dream. Hurry up!",0
+124,6,You are very selfish! A lot of people are in danger! Do you understand??,0
+124,7,What? Really? Hmm.. Maybe the dream will come true seeing these days.,0
+124,8,"Well, well.. I am not sure..",0
+124,10,I am in charge of security in Erons Factorys. Do you know Luda? How is he doing?,0
+125,0,"(Pointing at the entrance of Erons Factorys) They occupied almost half of Erons Factorys. Damn, nobody knew that they are that strong!",0
+125,1,"We are hardly depending this narrow entrance, but it will take no time until they get through here.",0
+125,2,We can have some time to be prepared if someone takes their attention away..,0
+125,3,Perhaps.. Do you want to help the people of Erons Factorys for me?,0
+125,5,Fine! I am sure their base is somewhere in the deep of Darkon2. Please find it out and let me know.,0
+125,6,Oh.. I is okay. Thank you anyway for letting me know what Luda told you.,0
+125,7,"Are you sure? Yes, it is there! Ha ha ha ha! I got it!! Thank you, thank you. I will reward you, I promise!",0
+125,10,Have you found it out yet? We do not have enough time. Please hurry up!,0
+151,0,"Hmm.. I cannot turn you down if you want to be trained by me, Mustang. Listen carefully! First, you have to pass the test.",0
+151,1,"Now, here is the test. I will test you how quick and precise you can perform it with your experience as a Vagrant.",0
+151,2,"To pass this test, you must hunt down 10 Small Aibatts along with 10 Small Mushpangs, and return to me within 7 minutes.",0
+151,3,Understand? You have to do it in 7 minutes! Now go!,0
+151,5,Good luck. You will need it! Ha ha ha!,0
+151,6,"Yes, I knew that it would be too hard for you. You are nothing!",0
+151,7,"Well... Compared to me, you are still too slow. It would only take me 2 minutes to complete the test. But, anyway, you passed.",0
+151,8,"Still, you are nothing comparing me, Mustang! Ha ha ha!",0
+151,10,"I knew this! It was not easy at all, right? Ha ha ha~",0
+151,11,Listen carefully okay? You have to hunt 20 Small Aibatts and 20 Small Mushpangs. You do not have much time! Go!,0
+151,12,You are such an idiot..,0
+151,15,You already choose another way. I have nothing to do with you.,0
+152,0,Congratulations for passing the 1st test! But everything has just stared.,0
+152,1,The 2nd test is to get all of the assist materials for making the arm of Mercenary.,0
+152,2,"There are 3 kind of assist meterials! 10 Twinkle Stones from Aibatts, 5 Chupims from Pukepukes, and 1 Poporam from Dorydomas. Bring those to Mercenary Master.",0
+152,3,Assist Master is in the Madrigal Job Masters in North-Fl. Go!,0
+152,5,Good luck! Flyff!,0
+152,6,"Yes, I knew you would give up. You are too foolish and lazy to pass this test, right? Ha ha ha!!",0
+152,7,Thank you very much for visiting here. Now listen carefully. Mercenary uses 2 kind of arms that are called Sword and Ax.,0
+152,8,"Sword is quick and exact, but the attacking power is weak. In the othere hand, Ax is not that quick and exact, but the attacking power is much more strong than Sword. Using these 2 arms appropriately is very important.",0
+152,9,Now do you understand about the arms of Mercenary?,0
+152,10,Have you done what Mushtang directed? You have to fulfill something if you want to get something.. Blah blah blah..,0
+153,0,You did great job with your 2nd test. But there are still other tests you have to pass in order to become a Mercenary.,0
+153,1,"I have taught you everything I know. Now here is the next test. You have to get the information about Mercenary skills. First, please find out the place where High-Dwarpets live.",0
+153,2,"And then visit High-Dwarpet Langdrong. He will tell you about the Mercenary skills. Oh, before visiting him..",0
+153,3,Please find and bring Book of Technique that he lost before in the River of Weeping. Then he will be pleased to meet you.,0
+153,5,God bless you.,0
+153,6,You cannot give up now.. It does not make sense to give up at this moment all of a sudden.. Blah blah blah blah..,0
+153,7,"Oh! This is the book I lost long time ago!! How did you find it? Thank you!! I will let you know something great in return. Let me see.. Hmm.. Okay, on the page 328.. Listen carefully.",0
+153,8,Fix your feet and go round holding arms in both hands. The power of going round will attack the target much more than usual. This skill is called Keenwheel.,0
+153,9,You cannot use this skill alone. You have use it only after Splmash. You can hit 3 times at once and it is possile to use it 4 times without stopping. It is really splendid skill. Understand?,0
+153,10,.. Did Andy send you? Then show me the evidence so I can trust you! Well.. Where is my Book of Technique.. (Rummaging),0
+154,0,"So, do you understand now? Do not lose the Label of Technique I gave you because it is very important.",0
+154,1,"Now you have the final test. You know where Drillmaster is, right? You can also find Instructor over there. His name is Hew.. Sorry, I forgot. Anyway please go there and find him.",0
+154,2,"Oh, you have to hunt the new kind of Masquerpet which is attacking people neaby of Flarine first. Okay?",0
+154,5,Good luck and get away now. I am busy.,0
+154,6,"Really? Well, it is up to you. None of my business. Hi hi hi~",0
+154,7,"Thank you very much, it was really a pain in the neck! Then here is the final test. It is about the duty of Mercenary. Mercenary is a job which performs close combat..",0
+154,8,"..and it fights in the front line and protects the other jobs during the war. But it is not matchless at all, so it cannot fight with a lot of enemies.",0
+154,9,"If it has to fight with a lot of enemies, other jobs have to help you. Congratulation! You passed every test and now you are a Mercenary. Flyff!",0
+154,10,"May I help you? If there is nothing I can do to help, please leave me alone, because I have a lot of things to do. Damn! Babari gives me have a headache..",0
+155,0,"I am sure you made a really good choice, but keep in mind that this is not easy at all. Now I must give you a simple test. Are you ready?",0
+155,1,"I will see how quickly and precisely you take the test, with your minimal experience as a Vagrant.",0
+155,2,You have only 7 minutes from now. Hunt 10 Small Mushpangs and 10 Small Burudengs and come back to Drillmaster. Understand? Go!,0
+155,5,Do it quickly and exactly!,0
+155,6,Are you afraid of the test? I do not need a chicken like you. Get away!,0
+155,7,Good job. But you still have lots of thing to do. Becoming Assist is not that easy.,0
+155,8,I am sure you are already ready for it. Good luck!,0
+155,10,Hurry up! You do not have enough time!!,0
+155,15,"You already choose another job, right?",0
+156,0,Congratulation for passing the 1st test! But everything has just started.,0
+156,1,"The 2nd test is to get all of the assist materials for making the arm, and then get the information about the arm in return.",0
+156,2,"There are 3 kind of assist meterials! 10 Forforms from Mushpangs, 5 Peakyrinds from Peakyturtles, and 1 Poporam from Dorydomas. Bring those to Assist Master.",0
+156,3,Assist Master is in the Madrigal Job Masters in North-Fl. Go!,0
+156,5,Good luck! Flyff!,0
+156,6,"If you give up, I will get rid of you! Understand?!!",0
+156,7,Thank you very much for visiting here. Now listen carefully. Assist uses 2 kind of arms that are called Nuckle Hammer and Stick.,0
+156,8,"Nuckle Hammer is for the close combat, and Stick is needed to use the assist skills. Mixing the assist skills is very important.",0
+156,9,Switching those 2 arms quickly is necessary in order to assist other jobs or perform the close combat. Understand?,0
+156,10,Oh.. You should fulfill what Elic said first. Or I cannot progress the next test. There is no other way.,0
+157,0,"I think I have done what I have to do. Now let me tell you about the next test. It is getting the information about Assist skills. First, you have to go to the place where High-Dwarpets live.",0
+157,1,"And visit High-Dwarpet Goripeg and ask him to teach you about Assist skills. Oh, before you go, there is something you have to do.",0
+157,2,"Please find Book of Technique in Field of Bubble, and bring it to him. Then he will be pleased to meet you.",0
+157,5,God bless you.,0
+157,6,I cannot understand you at all. Do you really want to give up now and make your effort so far worthless? Please think again carefully.,0
+157,7,"Oh! This is Book of Technique! I thought I will never find it again!! Thank you, thank you. I will let you know something great in return. Let me see..",0
+157,8,Blessing of Rhsis will make things easy. Believe in yourself. Hmm.. This is the high class skill which is called Haste.,0
+157,9,It is the assist skill which increases the attack speed of yourself or the enemy by 2 times. It is really great!!,0
+157,10,What? Get away!! I have to find something very important. Do you want to know what it is? Book of Technique!! Are you stupid or something?,0
+158,0,"Now you understand, right? Never lose the Label of Technique I gave to you, because it is very important. Understand?",0
+158,1,"Now you have the final test only. You know where Drillmaster is, right? Go there and find Instructor. His name is Kee.. Sorry, I forgot. Anyway go and visit him.",0
+158,2,"Oh, before visiting him, you have to hunt Masquerpet in Madren town. It is attacking people including Demians.",0
+158,5,"Good luck. Well, it is none of my business. He he he~",0
+158,6,Well.. I do not care whether you do it or not. Ke ke ke~,0
+158,7,"First, thank you very much. It was really pain in the neck! Now it is the final test. It is about the duty of Assist. Please listen carefully.",0
+158,8,"Assist is the job for assisting combats, but it can also attack the enemy directly. In the front line, it assists the combat of Mercenary or other jobs.",0
+158,9,"Assist is for assisting other jobs. Congratulations! Now, you are an Assist! Flyff!!",0
+158,10,"You can see that I am really busy now, right? Please leave me alone. Damn Chaner..",0
+159,0,You choose to be a Magician? Okay... But I cannot tell you it is good choice because there will be lots of hardship... Anyway here is a very simple test.,0
+159,1,I will test you how quickly and precisely you perform it with your experience as a Vagrant.,0
+159,2,"You have only 7 minutes from now. Hunt 15 Captain Aibatts and 10 Small Burudengs, and come back to Drillmaster. Okay?",0
+159,5,Good luck.,0
+159,6,Are you giving up? Well.. It could be better than having a lot of casualties..,0
+159,7,"Good job, but I cannot congratulate you.",0
+159,10,"You do not have enough time. But if you fail, you do not need to feel guilty for a lot of casualties. Everything is up to you.",0
+159,15,You did not choose Magician. Then why are you visiting me?,0
+160,0,"You passed the 1st test. Yet, there is a lot of things to do.",0
+160,1,The 2nd test is about the arm. You have to get 3 kinds of material and get the information about the arm of Magician.,0
+160,2,"Get 10 Twinkle Stones from Aitatts, 5 Chupims form Pukepukes and 1 Slain from Lowlves, and bring them to Magician Master.",0
+160,3,Magician Master is in the Madrigal Job Masters in west SainCity. Good luck!,0
+160,5,Good luck! Flyff!,0
+160,6,"Well, it is up to you if you want to give up. I hope you do not regret it afterwards.",0
+160,7,"Thank you very much for visiting me. Now let me tell you about the 2 kinds of arm, Wand and Staff, that Magician uses.",0
+160,8,"Wand is magical attacking arm. It attacks with magic basically. Great, right? But you can also perform close combat with Staff because it attacks with blow basically.",0
+160,9,"But the attack power is not strong. If you can use those 2 kinds of arm strategically, you can be great Magician. Ho ho ho~",0
+160,10,Huh? Did not Wingyei tell you anything to do before visiting me? Or did you forget? How can you.. Blah blah blan blan..,0
+161,0,"Now I have done what I have to do. Okay, the next test! You have to get the information about Magician skills. First, go to the place where the High-Dwarpets live.",0
+161,1,"Go there and visit High-Dwarpet Hastan, then he will tell you about the Magician skills. Oh, there is something you have to do before visiting him..",0
+161,2,"You have to find Book of Technique first which he lost in Fountaion of Dead Person, and then birng it to him. Then he will be pleased to meet you.",0
+161,5,Good luck.,0
+161,6,Are you worrying about what Wingyei said? Do not pay attention to it. Just believe in yourself. Okay?,0
+161,7,Wow~ Where did you find this? What? Okay.. Thanks a lot! Let me tell you something great in return. He he he..,0
+161,8,Will of Rhsis! Please let me defeat your ememies with your power! This is the basic Magician skill which is called Mental Strike.,0
+161,9,This skill attacks the target mentally so that it believes it is hurt. This one is very simple but sometimes it is really effective.,0
+161,10,Who are you? Why are you bothering me? Leave me alone because I have a headache now.. Where on earth is my Book of Technique?,0
+162,0,"Well, I have taught you everything I know. He he he~ Oh, and never lose the Memo of Technique because it is very important. Understand?",0
+162,1,"Well, here is the final test. Do you remember where Drillmaster is? Please visit Instructor over there. But I cannot remember his name..",0
+162,2,"Oh, before visiting him, you have to hunt Masquerpet nearby SaintTree. Then he will be pleased very much!",0
+162,5,Go! I am sick of being with you.,0
+162,6,"You do not want to do that? I do not want to do that, either. None of my business.",0
+162,7,Good job! Now here is the final test. It is about the duty of Magician. Please listen carefully.,0
+162,8,"Magician is the job for long distance combat, therefore it is very weak with close combat. But it can attack lots of enemies far away at once.",0
+162,9,"Also, it is very useful job in mixed combat rather than individual combat. Congratulations! Now you are Magician. Flyff!",0
+162,10,"Just leave me alone, I have so many thing to do now.. Damn Shado..",0
+500,0,"",0
+500,5,"",0
+500,6,"",0
+500,7,"",0
+500,10,"",0
+500,11,"",0
+501,0,"",0
+501,1,"",0
+501,5,"",0
+501,6,"",0
+501,7,"",0
+501,10,"",0
+501,11,"",0
+502,0,"",0
+502,1,"",0
+502,5,"",0
+502,6,"",0
+502,7,"",0
+502,10,"",0
+502,11,"",0
+1000,0,"Hey, you are such an idiot. What are you looking at?",0
+1000,1,"I think you are merely Vagabond. So, I do not have time to talk with you",0
+1000,2,Thank you a little. And I will not forget your help,0
+1000,3,I will reward you if you do your best.,0
+1000,4,Adventure is similar to history. You should take responsibility of your behavior,0
+1000,5,"I think you can not understand it. If you have more experience, you will understand it",0
+1000,6,Well done. But you can not prove that clowns are existing by this evidence. We need more evidences,0
+1000,7,Time is limited. Why are you cling to the evidences which are not existing.,0
+1001,0,Welcome to the oldest astronomical observatory in Madrigal,0
+1001,1,"Umm, you are vagabond. Flaris is the most beautiful city to live among Madrigal continents",0
+1001,2,"Thank you for your help. If you need my help, tell me whenever",0
+1001,3,Deliver the AstroPaper to Herney,0
+1001,4,Valin will be very helpful to you,0
+1001,5,Thank you for your help. I have also the sun observatory materials,0
+1002,0,Welcome to Mas Dungeon,0
+1002,1,This place is so dangerous for vagabond to enter. I think it is good for you to return.,0
+1002,2,"You were really helpful to me. Do you want to go to Dungeon now? If you need my help, let me know",0
+1002,3,Is there an anything that you want me to do?,0
+1002,4,Please bring fifty of ShiningStarStone,0
+1002,5,"Oh, you have finally collected all. Thank you",0
+1002,6,Why are you here? You had better go out here,0
+1002,7,"Due to the your help, I live well without problem",0
+1002,8,is it possible that Nyangnyang still alive,0
+1002,9,"Wow, you removed all of Nyangnyang. you have done great job.",0
+1002,10,I live to stay alone,0
+1003,0,Welcome to historical place of clockworks.,0
+1003,1,"Oh you are vagabond, right? Have you come to here to study? Oh, great",0
+1003,2,"Oh, you are the man giving me clockworks. Thank you and enjoy your trip",0
+1003,3,Herney will be waiting for you. Meet him,0
+1003,4,I think you might not know where the parts are.,0
+1003,5,I am not interested in vagabond,0
+1003,6,The BigBlue Honey that you gave me was relly delicious,0
+1003,7,Please say to Hello to Geron,0
+1003,8,"You will not help me, will you? hmm, actually I did not expect",0
+1003,9,"Wow, it looks very delicious. Thank you",0
+1003,10,Nobody can stop me! clockworks will die soon,0
+1005,0,We all see the world differently according to views of people. But truth will not be disappeared and ruined and also I am just one of the believers,0
+1005,1,Thank you for you help. Because of you I could study theology. And I will prevent Risis of Saint morning from become a stereotype religion.,0
+1005,2,"Who are you? I think if you are not a priest, you had better leave here",0
+1005,3,"Really! If so,  you had better go to Flaris and ask Marche",0
+1005,4,I think your help will be greatly useful for religious fields,0
+1005,5,"Really! If so,  you had better go to town and ask Helena",0
+1005,6,May god of Risis bless you.,0
+1005,7,"Wow, isnâ€™t it token of faith? What kinds thing have you done? because it will be given to the only person who did great job",0
+1005,8,Isnâ€™t is Holy Branch? Wow. Surprise!,0
+1005,9,I think I am really blessed guy because people in Flaris helped me,0
+1005,10,"I do not like that way much. But I have no choice. If I can become a Cleric again, I will not care that way",0
+1005,11,"Oh, I did not know what real Rinen is. I should go back to work.",0
+1005,12,I think I am really blessed guy because people in Flaris helped me,0
+1012,0,"Oh, you have done many good jobs since I met you last time. Due to your help, many people could not dye. I think now you deserve to receive a member of royal troupe",0
+1012,1,I heard what you have done. Queen commanded to give you entitlement to become a member of royal troupe,0
+1012,2,Do not wander around here. I do not like people disturb me,0
+1012,3,"My guess that a criminal is Maal believer is right. First, please bring Crest of Maal to Helena",0
+1012,4,"Welcome. I am waiting for you. I have no time to wait for a command of royal family. First, go to Stima. She will help you, even though she was a member of Darkon emancipator group",0
+1012,5,"It is a kind of secret that Many soldiers saw clowns in deep Maal believersâ€™ camp. You, also, should keep this secret.",0
+1012,6,I hope to see you again. Remember always you are a member of royal troupe,0
+1012,7,Get out of here,0
+1013,0,"Why are you studying in such a dangerous place? It can be explained with one work, Passion.",0
+1017,0,Hmm.. What should I do? (Looking at me) Wow! I am really glad to meet you! Ho ho ho~ Actually I was about to ask if you could help me!,0
+1017,1,"Thank you very much for coming. I have been very worried about something, so I look horrible. Phew-",0
+1017,2,"I am studying recent history, but it is really hard. So would you please help me? Please?",0
+1017,5,Wow~ Thanks a lot! Please go to the office and delivery the estimate applification to the mayor. Thank you. Thank you.,0
+1017,6,What? You are really mean and unkind!!,0
+1017,7,"Oh, it seems like Martiinyc is too busy to delivery it by herself. Thank you very much. Hmm.. Okay. The cost for her study of history will be paid very soon.",0
+1017,10,"May I help you? Oh, do you want to write an estimate applification? The form is on the right side of the office.",0
+1018,0,"Thank you very much for your help! I have received the money for my history study thanks to you. (Suddenly looking around and whispering) To be honest.. The whole data about the history of Madrigal is distorted, but no one knows.",0
+1018,1,It is really doubtful.. But somehow the History Society does not want to correct the distorted history even though they already know. This is the reason why I have studied it by myself.,0
+1018,2,"The other day I was almost killed by the assasins, but I will never give up. I then realized the reason why the History Society does not want to correct the distortion.",0
+1018,3,"I have to find out the real history and let others know of the truth. This is very important! Would you please help me? However, you could be in danger once you help me.",0
+1018,4,Would you help me regardless of being in danger?,0
+1018,5,"I knew you would! First there are ancient altars in the 3 continents. Please bring me 5 rocks of each altar, 5 rocks per continent.",0
+1018,6,"If you think this is not worth risking your life, I will not blame you. Thank you for listening to me anyway.",0
+1018,7,(Checking the rocks) Hmm.. This is what I thought exactly. Well.. I should study more. Thank you very much though. Oh.. Wait.. (Momentary Silence),0
+1018,8,"Now you should be very, very careful. Okay? I think the assasins who tried to kill me will attempt to take your life. Do you understand?",0
+1018,10,Please bring me 5 rocks from each continent - Flaris/Darkon/Saint Morning. Good luck!,0
+1019,0,This is the evidence of cracked continents using the data you brought. It is the most critical secret. The reason why I give it to you is.. (Thinking),0
+1019,1,Before telling you the reason.. Well.. We are in the same boat now. We are in danger together. Would you go through with me to the end?,0
+1019,5,Okay. Now please deliver this to Gothante. He is the chairman of the History Society in SainCity. Do not forget to beware of the assasins.,0
+1019,6,"I do not want to force you, but never forget that you are in danger.",0
+1019,7,(Very surprising) This.. This is.. Oh my god. Martiinyc is finally doing this. Oh.. (Closing his eyes and thinking),0
+1019,8,(Looking at me again) Thank you very much anyways. I will give you a letter of recommendation. Please bring this data and visit <Hachal> in Darkon1.,0
+1019,9,I am sure he can help you. Take care!,0
+1019,10,Do you want to know about the real history? Then you are talking to the right person. Ha ha ha~,0
+1020,0,Hmm? Did Gothante tell you to visit me? Why? (Deliver him the data and letter of recommendation) What? What is this?,0
+1020,1,(Reading the letter of recommendation) Yes. This is definitely the sign of Gothante. (Checking the data) Hmm.. Oh my god! This!,0
+1020,2,Oh.. Martiinyc is finally doing this.. Finally.. Does he not fear being killed? The young are too fearless these days.,0
+1020,3,"However, this is really a big deal! Now we are able to know the covered history of Madrigal eventually! Ha ha ha~",0
+1020,4,By the way.. You! Are you going to continue this?,0
+1020,5,"Fine. You know Field of Bubble, right? I think we can find some evidence over there. Lets go! Hurry up!",0
+1020,6,What..? Hey.. You can not give up now. You already became the important person for this. Please think again.,0
+1020,7,Hello~ I think I arrived a little bit earlier. Please give me the data and the letter of recommendation.,0
+1020,10,This place is very strange.. Hmm.. Field of Bubble.. What do you think about it?,0
+1021,0,"Before you came, I was looking around here and I found something strange in the north. The ground was digged and..",0
+1021,1,"(Thinking) It looked like some kind of pattern. I could not check it carefully, but it was definitely a pattern. Hmm.. The reason why I could not check carefully? It was because..",0
+1021,2,It was because strange fellows were hanging around there. I think they were defending something. That is why I could not check carefully. You know.. I am not good at fighting..,0
+1021,3,Would you plase check there? I think you can defeat them easily!,0
+1021,5,Fine! I am sure we can find out something by checking the pattern. Please check it carefully and bring me whatever you get.,0
+1021,6,Do you really want to give up? Well.. I can not force you then.. Thank you very much anyway. But now I am worrying about your furture.. Phew..,0
+1021,7,Oh! This!! The legend is..!! It is true what Martiinyc wrote.. Oh.. What should we do now.. Oh my god..,0
+1021,10,Those fellows.. Yes. They are not that easy if you failed to check because of them. How about joining a troupe and trying again?,0
+1022,0,Hmm.. I checked the cloth piece you brought me. It seems like the pattern on the cloth piece is the same with the one I saw on the ground.,0
+1022,1,"However, there is a mystrious power in this cloth piece.. I will check more about it. I came to know this by chance.. Have you ever heard about <Magic Troupe in Purple>?",0
+1022,2,"I do not know the details, but I know that this group has something to do with the secret of Madrigal.",0
+1022,3,Therefore I shoud check this troupe. How about helping me once more? Would you do that for me?,0
+1022,5,Fine! Please dig up the information of troupe leader and members. You can get the information during combat with them. Now I am goin back to Darkon. I will be waiting for you there.,0
+1022,6,Are you afraid of them? You are such a chickenâ€¦ Ha ha ha~,0
+1022,7,Hmm.. That was exactly what I thought.. Now go back and take a rest. But do not forget to visit me again later. Thank you very much.,0
+1022,10,Was it beyond your capacity..? But we cannot progress without the information about them.,0
+1023,0,Hey! You came at the right moment! I have just found out about something very interesting. Do you want to know what it is? Actually it is..,0
+1023,1,(Taking out something behind of him) It is this! Do you know what this is? Well.. You remember the cloth piece you brought me.. Right?,0
+1023,2,"This is the whole picture of the pattern which was on the cloth piece. I found it out from the ancient data I have, but this picture is the only thing I have.",0
+1023,3,I need more data to check in detail.. So now I need your help once again. Woud you do ma a favor?,0
+1023,5,Here. Take this picture. Please deliver it to Robanett who is working in the national library in SainCity. You can find him in Saint Hall.,0
+1023,6,Hey~ We are already in the same boat! You would better help me. You know that.,0
+1023,7,Hmm.. Is this what Hachal said? Good job. Thank you very much. Let me check.,0
+1023,10,"The record of ancients is always more mysterious than the history of these days, but this one is especially mysterious.",0
+1024,0,Oh~ Your story of pattern reminds me of something about the contents in the ancient document I had studied.,0
+1024,1,Do you know <Hill of Shade>? I have been there because I read about the place in the ancient document.,0
+1024,2,There is a similar pattern with the one in the Field of Bubble. If those two patterns are the same one..,0
+1024,3,..Then maybe you can also find a cloth piece over there. Would you pleae go and check?,0
+1024,5,Thank you. Please check around for the pattern in the Hill of Shade. Oh! Please be careful because there is something very fierce over there!,0
+1024,6,"It is okay, but please check if you have time later. It will be very helpful.",0
+1024,7,Oh my god.. You look terrible.. I can see that it was really hard work.. Good job. I will check this cloth piece too.,0
+1024,10,Something very fierce over there.. You cannot handle it by yourself maybe..,0
+1025,0,I finished checking the data which Haka requested. Please deliver this to Hachal.,0
+1025,5,I hope you will be successful as you have been so far.,0
+1025,6,..You really do not want to deliver it? Hmm..,0
+1025,7,Hmm.. History of Hardship. So did he give this to you? Good job. This should be somethng very useful if he said so.,0
+1025,8,See you later. Take care.,0
+1025,10,Did not Robanett say anything? That makes no sense.. Please visit him again. He must say something to you.,0
+1026,0,(With gloomy expression) Hey. It seems like the altar and magic troupe have something to do with..,0
+1026,1,..the Purple Magician in this book where the title is the History of Hardship. However.. (hesitating for a minute) it says the magician in purple is the same person with the Purple Magician who helped the heros during the war of hero.,0
+1026,2,"It is something really unbelievable, but it is also something we should believe.",0
+1026,3,"I think this is the best I can find out, but I will never give up until I find out the truth.",0
+1026,4,You! I want you to meet someone with this. Can you do that right now?,0
+1026,5,Yes. This is what I have found out by myself. Please deliver this to Gothante who is the mayor of the History Society in SainCity.,0
+1026,6,Maybe you have something very urgent. Please come back as quickly as you can because this is also very urgent.,0
+1026,7,Hey! Long time no see! Did you meet Haka? (Receiving what I deliever) What is this?,0
+1026,8,(Checking) Oh.. Oh my god! Is this true? Oh.. Oh.. This is way too big of a deal..,0
+1026,10,"I am really glad to see you again, but did Haka tell you to meet me? For what?",0
+1027,0,Hmm.. I have been thinking.. But we need more detailed informaton about the altar and the magic troupe.,0
+1027,1,I think there is something in the altar.. I have a strong presentiment that we could find out some evidence by checking there carefully.,0
+1027,2,Listen. This is very important. Please do me a favor as you have done so far. Okay?,0
+1027,5,Please check the altar in purple until you find out some evidence.,0
+1027,6,What on earth is able to come first than this? Toilet?,0
+1027,7,(Checking the book he received) Hmm.. Everything is written in that ancient language. But we can translate it anyway. Thanks.,0
+1027,8,Please come back to me after the translation is over. Let me bring this book to the translator.,0
+1027,10,"You can check all of the 3 altars, but you do not need to check others if you find something which could be the evidence in one place.",0
+1028,0,Now I have finished translating the book. The Purple Magician and the Black Magician is the same person as Hachal said.,0
+1028,1,"However, as I found out during the translation.. The altar in purple, which the Purple Magician made, is for performing a religious service to someone.",0
+1028,2,"According the the cloth piece which Martiinyc gave, there was word about the transcendental existence.",0
+1028,3,"I guess they performed the religious service to the transcendental existence, but there is no evidence yet. So..",0
+1028,4,"I would like to ask you to help me again. It seems like you want to know the result, too. Am I right?",0
+1028,5,Fine! Then please check the Field of Bubble and the Hill of Shade more carefully. I am really sure there is something over there!!,0
+1028,6,"If you do not have anything special, I hope you handle this first.",0
+1028,7,(Surprising) Huh? Oh.. What a strong magical power the bead has.. Oh.. How surprising it is..!!,0
+1028,8,Good job.. But this is something out of the range I can handle. (Thinking for a while),0
+1028,9,Please deliver this to Laola who is the Great Magician in Darkon3 Ainceknight.,0
+1028,10,Is it difficult to find out? But there is! Yes!! My presentiment has never been wrong. (Worrying),0
+1029,0,"Oh, you finally come. I was waiting for you. I am <Laola>.",0
+1029,1,"(Checking my face) It seems like you do not believe in me. Well, I know I do not look like the Great Magician.",0
+1029,2,"I used some terrible magic long time ago. Since then, I had to live out my life looking like this. Ho ho~",0
+1029,3,"Anyways, would you show me the bead you brought?",0
+1029,5,"Yes, this is it. I have to check this first, so please come back to me in a minute.",0
+1029,6,"Ho ho~ Hey you. Do not be too greedy for something strange, or it will ruin you. Ho ho~",0
+1029,7,Yes.. Yes.. Oh.. It was he.. I did not know that.,0
+1029,10,Do you wonder why I am called the Great Magician? It is secret. Ho ho~,0
+1030,0,"(Being annoyed, but recovering his composure soon) This bead was made by my best pupil <Lapranche>.",0
+1030,1,He is the Black Magician. I am the Black Magician too. Maybe you know.. It seems like he came to know about them.. Phew..,0
+1030,2,(Looking at me) Do you want to know about them? The only thing I know is that they made this world and they were also created by the Rhsis God.,0
+1030,3,"Yes. He came to know about them and tried to do the Purple Magic. Actually, the Purple Magic made me like this.",0
+1030,4,"Hey, you! Please do me a favor..",0
+1030,5,Here is the data which I checked about them. Please deliver this to Gothante. This will be not enough but very useful. Good luck.,0
+1030,6,How can you refuse my requet before I ask? Hmm.. Are you afraid? Ho ho ho~,0
+1030,7,"Oh, thanks. I was almost killed. Why on earth did they attack me? What a terrible.. By the way, what are you keeping?",0
+1030,8,"(Giving him the book) Oh, this! Is this the book which Laola wrote? What a worthful..",0
+1030,9,"Fine. Now we can start to the real study based on this. Thank you. Oh, and maybe I will ask you something again later. See you then.",0
+1030,10,"Did you meet Laola? I know Ainceknight is very wide, but it is not that difficult to find him. Please try again.",0
+1031,0,"Oh, nice to see you again. I have found something based on the data you gave me. Have you ever heard about Crowns?",0
+1031,1,"Yes, you have, because people are talking about them, but all people know is that they were the devils which threatened the world during the Hero War.",0
+1031,2,"However, I found that they were more than devils. By studying the data of Laola, according to which, they were able to stand against the Gods as Martiinyc.",0
+1031,3,And Purple Magician was their slave. The history we have known so far is absolutely strewed up by them. Damn! (Annoying),0
+1031,4,"(Recovering his composure) Anyways, would you do me a favor? Could you go back to Martiinyc again?",0
+1031,5,Here is all the data I have. Please deliver this to Martiinyc.,0
+1031,6,"Yes, you have something important to do. Would you come back to me after finishing that?",0
+1031,7,Long time no see! Are you coming back to let me know that I was right?,0
+1031,8,"(I nodded) Yeah!! I knew that!! Ho ho ho~ By the way, what is that?",0
+1031,9,"(Delivers the scroll) Hmm.. Oh, this? (After a while) Thank you anyway. We will see each other again. Goodbye!",0
+1031,10,Have you brought something from the History Society? No? Then are you coming back to meet me? I am shy~,0
+2000,0,Is request chupims for her party. Will you accept it?,0
+2000,5,You can collect chupim from all type of Pukepukes.,0
+2000,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2000,7,Well done. You successfully complete quest.,0
+2000,10,You do not have enough chupims.,0
+2001,0,Flaris Pang request to collect unknown letters. Will you accept it?,0
+2001,5,You can collect unknown letter near lordlight.,0
+2001,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2001,7,Well done. You successfully complete quest.,0
+2001,10,You do not have enough unknown letters.,0
+2002,0,Flaris Pang request to collect unknown IDs. Will you accept it?,0
+2002,5,You can collect unknown ID near bang.,0
+2002,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2002,7,Well done. You successfully complete quest,0
+2002,10,You do not have enough unknown IDs.,0
+2003,0,Diol request peakyrinds for mass producing flying boards. Will you accept it?,0
+2003,5,You can collect peakyrind from all type of peakyturtles.,0
+2003,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2003,7,Well done. You successfully complete quest,0
+2003,10,You do not have enough peakyrinds.,0
+2004,0,Children  House request mops for children. Will you accept it?,0
+2004,5,You can collect mop from all type of Demians.,0
+2004,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2004,7,Well done. You successfully complete quest,0
+2004,10,"",0
+2005,0,Madrigal Magition Union request poporams to make gems for wand. Will you accept it?,0
+2005,5,You can collect poporam from all type of Doridomas.,0
+2005,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2005,7,Well done. You successfully complete quest,0
+2005,10,You do not have enough poporams.,0
+2006,0,Valin request slains to make fuel for his cookie muchine. Will you accept it?,0
+2006,5,You can collect slain from all type of Lawolfs.,0
+2006,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2006,7,Well done. You successfully complete quest,0
+2006,10,You do not have enough slains.,0
+2007,0,Mule request tarinroots to make new magic quill. Will you accept it?,0
+2007,5,You can collect tarinroot from all type of Feferns.,0
+2007,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2007,7,Well done. You successfully complete quest,0
+2007,10,You do not have enough tarinroots.,0
+2008,0,Rooney request nyanyangs for her party. Will you accept it?,0
+2008,5,You can collect nyanyang near Giant Nyangnyang.,0
+2008,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2008,7,Well done. You successfully complete quest,0
+2008,10,You do not have enough nyanyangs.,0
+2009,0,Marche request starstones to make Open 10th Year Gift. Will you accept it?,0
+2009,5,You can collect starstone from all type of Nyangnyang.,0
+2009,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2009,7,Well done. You successfully complete quest,0
+2009,10,You do not have enough starstones.,0
+2010,0,Dunkan request golden wings to make new liquor. Will you accept it?,0
+2010,5,You can collect golden wing from all type of Bangs.,0
+2010,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2010,7,Well done. You successfully complete quest,0
+2010,10,You do not have enough golden wings.,0
+2011,0,Damian request bluehoneys to make dessert. Will you accept it?,0
+2011,5,You can collect bluehoney from all type of Wagsaacs.,0
+2011,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2011,7,Well done. You successfully complete quest,0
+2011,10,You do not have enough bluehoneys.,0
+2012,0,Children  House request miadolls to make presents for children. Will you accept it?,0
+2012,5,You can collect miadoll from all type of Mias.,0
+2012,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2012,7,Well done. You successfully complete quest,0
+2012,10,You do not have enough miadolls.,0
+2013,0,Julia request documents stolen by Mias. Will you accept it?,0
+2013,5,You can collect office documents near Mias.,0
+2013,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2013,7,Well done. You successfully complete quest,0
+2013,10,You do not have enough office documents.,0
+2014,0,Boboko request to collect furious matchs to use at blast furnace. Will you accept it?,0
+2014,5,You can collect furious match from all type of Mr Pumpkins.,0
+2014,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2014,7,Well done. You successfully complete quest,0
+2014,10,You do not have enough furious matchs.,0
+2015,0,Flaris Pang request to collect unknown letters. Will you accept it?,0
+2015,5,You can collect unknown letter near lordlight.,0
+2015,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2015,7,Well done. You successfully complete quest,0
+2015,10,You do not have enough unknown letters.,0
+2016,0,Kalin request cardrins to make remantororo source. Will you accept it?,0
+2016,5,You can collect cardrin from all type of RedMantiss.,0
+2016,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2016,7,Well done. You successfully complete quest,0
+2016,10,You do not have enough cardrins.,0
+2017,0,Martin request hammarbles to make magic orb. Will you accept it?,0
+2017,5,You can collect hammarble from all type of JackTheHammers.,0
+2017,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2017,7,Well done. You successfully complete quest,0
+2017,10,You do not have enough hammarbles.,0
+2018,0,Bill request gigglandes to make his mark. Will you accept it?,0
+2018,5,You can collect gigglande from all type of GiggleBoxs.,0
+2018,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2018,7,Well done. You successfully complete quest,0
+2018,10,You do not have enough gigglandes.,0
+2019,0,Helena request moonstones to repair Saint Hall. Will you accept it?,0
+2019,5,You can collect moonstone from all type of Rockmuscles.,0
+2019,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2019,7,Well done. You successfully complete quest,0
+2019,10,You do not have enough moonstones.,0
+2020,0,Madrigal Animal Association request bobands to help injured animal. Will you accept it?,0
+2020,5,You can collect boband from all type of Hoboa.,0
+2020,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2020,7,Well done. You successfully complete quest,0
+2020,10,You do not have enough bobands.,0
+2021,0,Strange collecter request dumblings for his collection. Will you accept it?,0
+2021,5,You can collect dumbling from all type of DumbBulls.,0
+2021,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2021,7,Well done. You successfully complete quest,0
+2021,10,You do not have enough dumblings.,0
+2022,0,Mayer request kalins to make a present for his wife. Will you accept it?,0
+2022,5,You can collect kalin from all type of Totemias.,0
+2022,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2022,7,Well done. You successfully complete quest,0
+2022,10,You do not have enough kalins.,0
+2023,0,Helena request clockhearts to make new heart for her sick brother. Will you accept it?,0
+2023,5,You can collect clockheart from all type of Cardpuppets.,0
+2023,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2023,7,Well done. You successfully complete quest,0
+2023,10,"",0
+2024,0,"Bill request tombmarbles to make the best marble, marble of devil. Will you accept it?",0
+2024,5,You can collect tombmarble from all type of Tombstonebearers.,0
+2024,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2024,7,Well done. You successfully complete quest,0
+2024,10,You do not have enough tombmarbles.,0
+2025,0,Fighters request golden fists to make golden glove. Will you accept it?,0
+2025,5,You can collect golden fist from all type of Basques.,0
+2025,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2025,7,Well done. You successfully complete quest,0
+2025,10,You do not have enough golden fists.,0
+2026,0,Mayer request orbrins to make marble for his son. Will you accept it?,0
+2026,5,You can collect orbrin from all type of Pranksters.,0
+2026,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2026,7,Well done. You successfully complete quest,0
+2026,10,You do not have enough orbrins.,0
+2027,0,Strange collecter request tomas for his collection. Will you accept it?,0
+2027,5,You can collect toma from all type of Leyenas.,0
+2027,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2027,7,Well done. You successfully complete quest,0
+2027,10,You do not have enough tomas.,0
+2028,0,Olien request steamtears to make new lens. Will you accept it?,0
+2028,5,You can collect steamtear from all type of Steamwalkers.,0
+2028,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2028,7,Well done. You successfully complete quest,0
+2028,10,You do not have enough steamtears.,0
+2029,0,Soldiers request knightlers to make muffler. Will you accept it?,0
+2029,5,You can collect knightler from all type of SteelKnights.,0
+2029,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2029,7,Well done. You successfully complete quest,0
+2029,10,You do not have enough knightlers.,0
+2030,0,Dwarpets request wheeshoes to use them in there fastival. Will you accept it?,0
+2030,5,You can collect wheeshoe from all type of NuttyWheels.,0
+2030,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2030,7,Well done. You successfully complete quest,0
+2030,10,You do not have enough wheeshoes.,0
+2031,0,Erons industrial complex manager request droils to use as fuel for crane. Will you accept it?,0
+2031,5,You can collect droil from all type of Drillers.,0
+2031,6,"You cannot collect them? OK. If you change your mind, come back to me.",0
+2031,7,Well done. You successfully complete quest,0
+2031,10,You do not have enough droils.,0
+2032,0,A request for collecting GR bandage to make a bandage for medical treatment of patients was submitted. Will you accept this request?,0
+2032,5,You can collect it from a group of GR/ Small GR/ GR/ Captain GR/ Giant GR,0
+2032,6,You mean making a collection is impossible? I got it. Come to me If you request it again by chance,0
+2032,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it,0
+2032,10,The number of GR bandage is insufficient. It should be accurate.,0
+2033,0,A request for collecting Ampere which is material for a battery of radiations is submitted because Dwarpet needs to work at night. Will you accept this request?,0
+2033,5,You can collect it from a group of Bolt. You can get it from all of  Small Bolt/ Bolt/ Captain Bolt and Giant Bolt,0
+2033,6,You mean making a collection is impossible? I got it. Come to me If you request it again by chance.,0
+2033,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it,0
+2033,10,The number of Ampere is insufficient. It should be accurate,0
+2034,0,Mysterious collector wants another collection again. He asks us to collect Guardieye. Will you accept this request?,0
+2034,5,You can collect it from a group of Elder Guard. You can get it from all of  Small Elder Guard/ Elder Guard/ Captain Elder Guard and Giant Elder Guard.,0
+2034,6,You mean making a collection is impossible? I got it. Come to me if you request it again by chance.,0
+2034,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it,0
+2034,10,The number of Ampere is insufficient. It should be accurate,0
+2035,0,Dwapet requested us to collect Dumptire which is attached to wood wheels to protect it.,0
+2035,5,You can collect it from a group of Dump. You can get it from all of Small Dump/ Dump/ Captain Dump and Giant Dump.,0
+2035,6,You mean making a collection is impossible? I got it. Come to me if you request it again by chance.,0
+2035,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2035,10,The number of Ampere is insufficient. It should be accurate.,0
+2036,0,Mysterious collector wants another collection again. This time he asked us to collect Garbageton.,0
+2036,5,You can collect it from a group of Garbageton. You can get it from all of  Small Garbageton/ Garbageton/ Captain Garbageton and Giant Garbageton.,0
+2036,6,You mean making a collection is impossible? I got it. Come to me If you request it again by chance.,0
+2036,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2036,10,The number of Garbageton is insufficient. It should be accurate.,0
+2037,0,Because a widow lost relics of her husband which is a jewel on her ring. So she requested us to collect Eronior which is the material of jewel ring.,0
+2037,5,You can collect it from a group of Crane Machinery. You can get it from all of Small Crane Machinery/ Machinery/ Captain Machinery and Giant Machinery.,0
+2037,6,You mean making a collection is impossible? I got it. Come to me If you request it again by chance.,0
+2037,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2037,10,The number of Ampere is insufficient. It should be accurate.,0
+2038,0,Remina requested us to collect Repygle which is material of sunglasses to be disguised.,0
+2038,5,You can collect it from a group of Nautrepy. You can get it from all of  Small Nautrepy/ Nautrepy/ Captain Nautrepy and Giant Nautrepy.,0
+2038,6,You mean making a collection is impossible? I got it. Come to me if you request it again by chance.,0
+2038,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2038,10,The number of Repygle is insufficient. It should be accurate.,0
+2039,0,Heaven requested us to collect Sycale which is material of wallpaper used for redesigning Magic Shop. Will you accept this request?,0
+2039,5,You can collect it from a group of Syliaca. You can get it from all of Small Syliaca/ Syliaca/ Captain Syliaca and Giant Syliaca.,0
+2039,6,You mean making a collection is impossible? I got it. Come to me if you request it again by chance.,0
+2039,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2039,10,The number of Sycale is insufficient. It should be accurate.,0
+2040,0,Mysterious collector wants another collection again. This time he asked us to collect Mongtear.,0
+2040,5,You can collect it from a group of Greemong. You can get it from all of  Small Greemong/ Greemong/ Captain Greemong and Giant Greemong.,0
+2040,6,You mean making a collection is impossible? I got it. Come to me if you request it again by chance.,0
+2040,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2040,10,The number of Mongtear is insufficient. It should be accurate.,0
+2041,0,Newbie doctors requested us to collect Booposn to produce an anesthetic.,0
+2041,5,You can collect it from a group of Boo. You can get it from all of  Small Boo/ Boo/ Captain Boo and Giant Boo.,0
+2041,6,You mean making a collection is impossible? I got it. Come to me if you request it again by chance.,0
+2041,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2041,10,The number of Booposn is insufficient. It should be accurate.,0
+2042,0,Firework Producer requested us to collect Bombtimer which is material of new firework. Will you accept this request?,0
+2042,5,You can collect it from a group of Carrierbomb. You can get it from all of  Small Carrierbomb/ Carrierbomb/ Captain Carrierbomb and Giant Carriebomb.,0
+2042,6,You mean making a collection is impossible? I got it. Come to me if you request it again by chance.,0
+2042,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2042,10,The number of Bombtimer is insufficient. It should be accurate.,0
+2043,0,Bolpor requested us to collect Prewing which is material of snack for children. Will you accept this request?,0
+2043,5,You can collect it from a group of Hoppre. You can get it from all of Small Hoppre/ Hoppre/ Captain Hoppre and Giant Hoppre.,0
+2043,6,You mean making a collection is impossible? I got it. Come to me if you request it again by chance.,0
+2043,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2043,10,The number of Prewing is insufficient. It should be accurate.,0
+2044,0,Chitller requested us to collect Poiespore which is material of mushroom farm. Will you accept this request?,0
+2044,5,You can collect it from a group of Mushpoie. You can get it from all of  Small Mushpoie/ Mushpoie/ Captain Mushpoie and Giant Mushpoie.,0
+2044,6,You mean making a collection is impossible? I got it. Come to me if you request it again by chance.,0
+2044,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2044,10,The number of Poiespore is insufficient. It should be accurate.,0
+2045,0,Acrobat masters requested us to collect Renyken which is material of new arms. Will you accept this request?,0
+2045,5,You can collect it from a group of Iren. You can get it from all of Small Iren/ Iren/ Captain Iren and Giant Iren.,0
+2045,6,You mean making a collection is impossible? I got it. Come to me if you request it again by chance.,0
+2045,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2045,10,The number of Renyken is insufficient. It should be accurate.,0
+2046,0,Darkon natives requested us to collect Tangkask to escape from dangerous Watangka.,0
+2046,5,You can collect it from a group of Watangka. You can get it from all of  Small Watangka/ Watangka/ Captain Watangka and Giant Watangka.,0
+2046,6,You mean making a collection is impossible? I got it. Come to me if you request it again by chance.,0
+2046,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2046,10,The number of Tangkask is insufficient. It should be accurate.,0
+2047,0,we have got requested from the public office to collect Rootioe which is substitution of the woodworking materials because Woodworking materials are running out. Will you accept this request?,0
+2047,5,You can collect it from a group of Antiquery. You can get it from all of Small Antiquery/ Antiquery/ Captain Antiquery and Giant Antiquery.,0
+2047,6,You mean making a collection is impossible? I got it. Come to me if you want to request it again by chance.,0
+2047,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2047,10,The number of Rootioe is insufficient. It should be accurate.,0
+2048,0,Remina requested us to collect Luchest to make the most strong shiled in the world. Will you accept this request?,0
+2048,5,You can collect it from a group of Luia. You can get it from all of Small Luia/ Luia/ Captain Luia and Giant Luia.,0
+2048,6,You mean making a collection is impossible? I got it. Come to me if you want to request it again by chance.,0
+2048,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2048,10,The number of Luchest is insufficient. It should be accurate.,0
+2049,0,Madrigal beauty contest sponsor requested us to collect Eronsimint for making a toros as an award. Will you accept this request?,0
+2049,5,You can collect it from a group of Gongury. You can get it from all of Small Gongury/ Gongury/ Captain Gongury and Giant Gongury.,0
+2049,6,You mean making a collection is impossible? I got it. Come to me if you want to request it again by chance.,0
+2049,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2049,10,The number of Eronsimit is insufficient. It should be accurate.,0
+2050,0,Lucky requested us to collect Hammamer which is material of new tools. Will you accept this request?,0
+2050,5,You can collect it from a group of Shuhamma. You can get it from all of Small Shuhamma/ Shuhamma/ Captain Shuhamma and Giant Shuhamma.,0
+2050,6,You mean making a collection is impossible? I got it. Come to me if you want to request it again by chance.,0
+2050,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2050,10,The number of Hammamer is insufficient. It should be accurate.,0
+2051,0,Mysterious collector wants another collection again. This time he asked us to collect Rnamond. Will you accept this request?,0
+2051,5,You can collect it from a group of Kern. You can get it from all of Small Kern/ Kern/ Captain Kern and Giant Kern.,0
+2051,6,You mean making a collection is impossible? I got it. Come to me if you want to request it again by chance.,0
+2051,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2051,10,The number of Rnamond is insufficient. It should be accurate.,0
+2052,0,Could you do me a favor? I need Phanbubble. Can you please accept my request?,0
+2052,5,You can collect it from a group of Glaphan. You can get it from all of Small Glaphan/ Glaphan/ Captain Glaphan and Giant Glaphan.,0
+2052,6,You mean making a collection is impossible? I got it. Come to me if you want to request it again by chance.,0
+2052,7,Good Job! You successfully completed the request. Here is compensation for the request. Take it.,0
+2052,10,The number of Glaphan is insufficient. It should be accurate.,0
+4000,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4000,5,"If you want to remit your sin, hunt 200 sinful Wagsaac from now on.",0
+4000,6,When are you going to purge away your deep sin....,0
+4000,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4000,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4001,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4001,5,"If you want to remit your sin, hunt 200 sinful Mr Pumpkin from now on.",0
+4001,6,When are you going to purge away your deep sinâ€¦,0
+4001,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4001,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4002,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4002,5,"If you want to remit your sin, hunt 200 sinful Giggle Box from now on.",0
+4002,6,When are you going to purge away your deep sinâ€¦,0
+4002,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4002,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4003,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4003,5,"If you want to remit your sin, hunt 200 sinful Hobo from now on.",0
+4003,6,When are you going to purge away your deep sinâ€¦,0
+4003,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4003,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4004,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4004,5,"If you want to remit your sin, hunt 200 sinful Cardpupet from now on.",0
+4004,6,When are you going to purge away your deep sinâ€¦,0
+4004,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4004,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4005,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4005,5,"If you want to remit your sin, hunt 200 sinful Basque from now on.",0
+4005,6,When are you going to purge away your deep sinâ€¦,0
+4005,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4005,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4006,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4006,5,"If you want to remit your sin, hunt 200 sinful Leyena from now on.",0
+4006,6,When are you going to purge away your deep sinâ€¦,0
+4006,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4006,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4007,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4007,5,"If you want to remit your sin, hunt 200 sinful SteelKnight from now on.",0
+4007,6,When are you going to purge away your deep sinâ€¦,0
+4007,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4007,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4008,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4008,5,"If you want to remit your sin, hunt 200 sinful Volt from now on.",0
+4008,6,When are you going to purge away your deep sinâ€¦,0
+4008,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4008,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4009,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4009,5,"If you want to remit your sin, hunt 200 sinful Garbagepider from now on.",0
+4009,6,When are you going to purge away your deep sinâ€¦,0
+4009,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4009,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4010,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4010,5,"If you want to remit your sin, hunt 200 sinful Greemong from now on.",0
+4010,6,When are you going to purge away your deep sinâ€¦,0
+4010,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4010,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4011,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4011,5,"If you want to remit your sin, hunt 200 sinful Hoppre from now on.",0
+4011,6,When are you going to purge away your deep sinâ€¦,0
+4011,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4011,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4012,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4012,5,"If you want to remit your sin, hunt 200 sinful Iren from now on.",0
+4012,6,When are you going to purge away your deep sinâ€¦,0
+4012,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4012,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4013,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4013,5,"If you want to remit your sin, hunt 200 sinful Watangka from now on.",0
+4013,6,When are you going to purge away your deep sinâ€¦,0
+4013,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4013,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4014,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4014,5,"If you want to remit your sin, hunt 200 sinful Luia from now on.",0
+4014,6,When are you going to purge away your deep sinâ€¦,0
+4014,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4014,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4015,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4015,5,"If you want to remit your sin, hunt 200 sinful Shuhamma from now on.",0
+4015,6,When are you going to purge away your deep sinâ€¦,0
+4015,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4015,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4016,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4016,5,"If you want to remit your sin, hunt 200 sinful Glaphan from now on.",0
+4016,6,When are you going to purge away your deep sinâ€¦,0
+4016,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4016,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4017,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4017,5,"If you want to remit your sin, hunt 50 sinful Wagsaac from now on.",0
+4017,6,When are you going to purge away your deep sinâ€¦,0
+4017,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4017,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4018,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4018,5,"If you want to remit your sin, hunt 50 sinful Mr Pumpkin from now on.",0
+4018,6,When are you going to purge away your deep sinâ€¦,0
+4018,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4018,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4019,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4019,5,"If you want to remit your sin, hunt 50 sinful GiggleBox from now on.",0
+4019,6,When are you going to purge away your deep sinâ€¦,0
+4019,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4019,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4020,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4020,5,"If you want to remit your sin, hunt 50 sinful Hobo from now on.",0
+4020,6,When are you going to purge away your deep sinâ€¦,0
+4020,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4020,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4021,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4021,5,"If you want to remit your sin, hunt 50 sinful Cardpuppet from now on.",0
+4021,6,When are you going to purge away your deep sinâ€¦,0
+4021,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4021,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4022,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4022,5,"If you want to remit your sin, hunt 50 sinful Basque from now on.",0
+4022,6,When are you going to purge away your deep sinâ€¦,0
+4022,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4022,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4023,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4023,5,"If you want to remit your sin, hunt 50 sinful Leyena from now on.",0
+4023,6,When are you going to purge away your deep sinâ€¦,0
+4023,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4023,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4024,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4024,5,"If you want to remit your sin, hunt 50 sinful SteelKnight from now on.",0
+4024,6,When are you going to purge away your deep sinâ€¦,0
+4024,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4024,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4025,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4025,5,"If you want to remit your sin, hunt 50 sinful Volt from now on.",0
+4025,6,When are you going to purge away your deep sinâ€¦,0
+4025,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4025,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4026,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4026,5,"If you want to remit your sin, hunt 50 sinful Garbagepider from now on.",0
+4026,6,When are you going to purge away your deep sinâ€¦,0
+4026,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4026,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4027,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4027,5,"If you want to remit your sin, hunt 50 sinful Greemong from now on.",0
+4027,6,When are you going to purge away your deep sinâ€¦,0
+4027,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4027,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4028,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4028,5,"If you want to remit your sin, hunt 50 sinful Hoppre from now on.",0
+4028,6,When are you going to purge away your deep sinâ€¦,0
+4028,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4028,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4029,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4029,5,"If you want to remit your sin, hunt 50 sinful Iren from now on.",0
+4029,6,When are you going to purge away your deep sinâ€¦,0
+4029,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4029,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4030,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4030,5,"If you want to remit your sin, hunt 50 sinful Watangka from now on.",0
+4030,6,When are you going to purge away your deep sinâ€¦,0
+4030,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4030,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4031,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4031,5,"If you want to remit your sin, hunt 50 sinful Luia from now on.",0
+4031,6,When are you going to purge away your deep sinâ€¦,0
+4031,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4031,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4032,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4032,5,"If you want to remit your sin, hunt 50 sinful Shuhamma from now on.",0
+4032,6,When are you going to purge away your deep sinâ€¦,0
+4032,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4032,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4033,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4033,5,"If you want to remit your sin, hunt 50 sinful Glaphan from now on.",0
+4033,6,When are you going to purge away your deep sinâ€¦,0
+4033,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4033,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4034,0,There is a quest for remitting your sin. Do you want to accomplish this quest?,0
+4034,5,"If you collect 10 gems of sin, I will forgive your sin.",0
+4034,6,When are you going to purge away your deep sinâ€¦,0
+4034,7,"For accomplishing the quest of yours, your sin has been forgiven. Do something good from now on.",0
+4034,10,"If you are unwilling to remit your sin by yourself, this quest will be in vain.",0
+4035,0,The only way to go out of this island is to use Warf which is in the outside of the island. Do you want to complete the quest to get the key for using Warf zone?,0
+4035,5,I will give you the key if you bring me 30 beeds of sin. You can get the beads in the empty lot beside of the campsite.,0
+4035,6,Just stay here if you love this island.,0
+4035,7,Here is your key. Go and never come back.,0
+4035,10,In other words you buy your freedom with the beads of sin. Do your best.,0
+4036,0,There is a quest for reducing your sin. Do you want to complete it?,0
+4036,5,Then hunt 200 Peperns which commited a lot of sin,0
+4036,6,Nobody knows when people can overcome their sinâ€¦,0
+4036,7,Now I let you free from your sin because you complete your duty. Be nice from now on.,0
+4036,10,It is meaningless if you do not want to expiate your sin.,0
+4037,0,There is a quest for reducing your sin. Do you want to complete it?,0
+4037,5,Then hunt 50 Peperns which commited a lot of sin.,0
+4037,6,Nobody knows when people can overcome their sinâ€¦,0
+4037,7,Now I let you free from your sin because you complete your duty. Be nice from now on.,0
+4037,10,It is meaningless if you do not want to expiate your sin.,0
+41,5,DUMMY TEXT,0
+41,5,DUMMY TEXT,0
+42,5,DUMMY TEXT,0
+1,0,So you want to be a Mercenary. You should go see Valin,0
+1,0,Im hungry. Go get me lunch,1
+1,0,Heres Valin's lunch,2
+1,0,"Go to Boboko, he knows how to make Blade breavasdfasdfaery something",3
+1,0,I need 10 Vision stones from Grownup Lawolf to make Blade Breavery,4

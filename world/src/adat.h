@@ -51,7 +51,7 @@ struct mobdata2
 	bool valid;
 	int attackdelay;
 	float speed;
-	float resistele[5];
+	std::array<float, 5> resistele;
 	int mdrop;
 	int cash;
 	std::string name;

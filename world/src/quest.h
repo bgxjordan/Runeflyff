@@ -16,7 +16,7 @@
 class tquest
 {
 public:
-	static int joblookup[16];
+	static std::array<int, 16> joblookup;
 	static pmutex questsmutex;
 	static std::map<int, tquest*> quests;
 
